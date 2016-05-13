@@ -46,6 +46,15 @@ body {
     font-weight: 300;
     font-style: normal;
 }
+.tutorial-bg{
+    background: #f7f7f7 !important;
+}
+.tutorial-navbar-default{
+    background:#f7f7f7 !important;
+}
+.tutorial-container{
+    background: #fff;
+}
 b, strong {
     font-family: "AdelleSansBold", sans-serif;
     font-weight: bolder;
@@ -96,12 +105,6 @@ a:focus{
     border: none;
     background-color: #ffffff;
 }
-.navbar-default .navbar-nav>li { font-size: 12px;
-
-}
-.navbar-default .navbar-nav>li>a { color: #007263;
-
-}
 .logo{
     margin-bottom: 17px;
     padding: 25px 0 0 0;
@@ -151,10 +154,9 @@ a:focus{
 }
 
 .links-container {
-    font-size: 14px;
+    font-size: 14pt;
     font-family: "AdelleSansRegular", sans-serif;
     font-weight: 300;
-    font-style: normal;
     position: relative;
     float: right;
     left: -24px;
@@ -193,7 +195,7 @@ a:focus{
 
 .not-sure-link{
     text-decoration: underline;
-    color:#007867;
+    color:black;
     cursor:pointer;
 }
 .not-sure-link:hover{
@@ -208,6 +210,42 @@ a:focus{
 }
 /*==========  Mobile First Method  ==========*/
 @media only screen and (min-width: 320px) and (max-width: 990px){
+    .ft-tutorial-contact-container {
+        height: 100px;
+    }
+    .arrow-container {
+        left: 3px;
+        position: absolute;
+        top: 25%;
+        width: 99%;
+    }
+    .right-arrow{
+        height: 77px;
+        position: relative;
+        top: 8px;
+    }
+    .left-arrow{
+        position: relative;
+        top: 8px;
+        left: -2px;
+    }
+    .tutorial-image{
+        width: 100%;
+    }
+    .tutorial-survey-btn {
+        border: 3px solid #b7b7b7;
+        font-size: 16px;
+        padding: 3px 33px 2px 36px;
+        border-radius: 28px;
+        color: #b7b7b7;
+        background-color: #424242;
+    }
+    .tutorial-survey-btn-container {
+        margin: auto;
+        width: 50%;
+        left: -19px;
+        position: relative;
+    }
     .thankyou-lines {
         color: red;
         font-size: 22px;
@@ -258,6 +296,7 @@ a:focus{
     }
     .footer-container{
         max-width: 400px;
+        margin-bottom: 150px;
     }
     .contact-us-heading{
         font-family: "AdelleSansLight", sans-serif;
@@ -390,7 +429,7 @@ a:focus{
         margin-bottom: 76px;
     }
     .testimonials-box{
-        line-height: 1.6;
+        line-height: 2;
         background-image: url("../assets/img/testimonials-box.png");
         height: 667px;
         left: -2px;
@@ -413,13 +452,6 @@ a:focus{
         left: -6px;
         top: -18px;
     }
-    .btn-default { color: #fff !important;
-                   background-color: #007867 !important;
-                   font-size: 16px !important;
-                   font-weight: 400 !important;
-                   text-align: center;
-    }
-
     .download-btn-container{
         left: 81px;
         margin-top: -2px;
@@ -546,6 +578,12 @@ a:focus{
         color: #ffffff;
         background: #424242;
     }
+    .tutorial-tell-us {
+        padding: 24px;
+        color: #ffffff;
+        background: #424242;
+        margin-top: 92px;
+    }
     .tell-us-heading {
         position: relative;
         font-family: "AdelleSansLight", sans-serif;
@@ -659,10 +697,9 @@ a:focus{
     .footer-links-container {
         line-height: 2;
         color: #007867;
-        font-weight: 400;
+        font-weight: bold;
         font-size: 12px;
         margin-bottom: 60px;
-        line-height: 1.6;
     }
     .ft-terms-link {
         position: relative;
@@ -719,17 +756,17 @@ a:focus{
     }
     .contact {
         margin-bottom: 37px;
-        padding: 28px 0 0 36px;
+        padding: 25px 0 0 13px;
         height: 126px;
         background: #ebebeb;
     }
     .contact-cust-service-label {
         padding: 0 17px 0 0;
-        font-family: "AdelleSansRegular", sans-serif;
+        font-family: "AdelleSansLight", sans-serif;
         font-size: 12px;
     }
     .contact-phone {
-        font-family: "AdelleSansBold", sans-serif;
+        font-family: "AdelleSansLight", sans-serif;
         font-size: 12px;
         font-weight: 300;
         padding: 0 25px 0 0;
@@ -737,6 +774,7 @@ a:focus{
     .contact-link {
         padding: 0;
         font-size: 12px;
+        cursor: pointer;
         font-family: "AdelleSansLight", sans-serif;
     }
     .how-to-lead {
@@ -780,6 +818,12 @@ a:focus{
         border-color: #b7b7b7;
     }
     .lead-text {
+        margin-bottom: 38px;
+        color: #010101;
+        font-family: "AdelleSansLight", sans-serif;
+        font-size: 28px;
+    }
+    .Tutorial-lead-text {
         margin-bottom: 38px;
         color: #010101;
         font-family: "AdelleSansLight", sans-serif;
@@ -1154,20 +1198,21 @@ a:focus{
         background: #ebebeb;
     }
     .contact-cust-service-label {
-        font-family: "AdelleSansRegular", sans-serif;
+        font-family: "AdelleSansLight", sans-serif;
         font-size: 20px;
         padding: 0 245px 6px 0;
     }
     .contact-phone {
         position: relative;
         padding: 0 107px 0 0;
-        font-family: "AdelleSansBold", sans-serif;
+        font-family: "AdelleSansLight", sans-serif;
         font-size: 20px;
         font-weight: 300;
         left: -99px;
     }
     .contact-link{
         font-size: 16px;
+        cursor: pointer;
         font-family: "AdelleSansLight", sans-serif;
     }
     .how-to-lead {
@@ -1363,9 +1408,6 @@ a:focus{
         font-size: 24px;
         color:#333333;
     }
-    .merchants-paragraph a {color: #007867;
-
-    }
     .merchants-header{
         font-size: 44px;
         font-family: "AdelleSansLight", sans-serif;
@@ -1457,7 +1499,7 @@ a:focus{
         top: -83px;
     }
     .download-btn-test-card{
-        padding: 8px 25.6px 6px;
+        padding: 8px 23px 5px 19px;
         border-radius: 18px;
     }
     .what-is-emv-container{
@@ -1572,7 +1614,7 @@ a:focus{
         border-color:#017867;
     }
     .cc-present-transactions{
-        margin-bottom: 25px;
+        margin-bottom: 105px;
     }
     .cc-fraud-container{
         position: relative;
@@ -1633,7 +1675,7 @@ a:focus{
     .ip-block-light{
         color: #017867;
         font-family: "AdelleSansLight", sans-serif;
-        font-size: 25px;
+        font-size: 26px;
         margin-bottom: 36px;
         text-decoration:  none !important;
     }
@@ -1649,7 +1691,7 @@ a:focus{
     }
     .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
         float: left;
-        padding: 10px 40px 8px 40px;
+        padding: 10px 70px 8px 70px;
         text-decoration: none;
     }
     .contact-us-container{
@@ -1676,12 +1718,13 @@ a:focus{
     .need-help-form-container{
         left: 61px;
         position: relative;
-        top: 0px;
+        top: -28px;
     }
     .footer-container{
         max-width: 1005px;
         position: relative;
         left: 63px;
+        margin-bottom: 150px;
     }
     .footer-registration{
         margin-bottom: 50px;
@@ -1744,9 +1787,126 @@ a:focus{
         margin-top: -20px;
         top: -31px;
     }
-
+    .ft-tutorial-contact-container {
+        height: 107px;
+        width: 1140px;
+        left: 0;
+        position: relative;
+    }
+    .tutorial-tell-us{
+        position: relative;
+        left: 0px;
+        padding: 24px;
+        width: 1140px;
+        color: #ffffff;
+        background: #424242;
+        margin-top: 92px;
+    }
+    .Tutorial-lead-text{
+        margin-left: -55px;
+        margin-bottom: 38px;
+        color: #010101;
+        font-family: "AdelleSansLight", sans-serif;
+        font-size: 40px;
+        margin-top: 38px;
+    }
+    .tutorial-survey-btn {
+        border: 3px solid #b7b7b7;
+        font-size: 16px;
+        padding: 3px 33px 2px 36px;
+        border-radius: 28px;
+        color: #b7b7b7;
+        background-color: #424242;
+    }
+    .tutorial-survey-btn-container {
+        margin: auto;
+        width: 50%;
+        left: 4px;
+        position: relative;
+    }
+    .tutorial-image{
+        position: relative;
+        width: 770px;
+        left: 145px;
+    }
+    .right-arrow{
+        height: 77px;
+        position: relative;
+        left: 145px;
+        top: -51px;
+    }
+    .left-arrow{
+        top: -51px;
+        position: relative;
+        left: -1px;
+    }
+    .arrow-container{
+        left: 147px;
+        position: absolute;
+        top: 25%;
+        width: 81%;
+    }
 }
 @media only screen and (min-width: 1900px) {
+    .arrow-container{
+        left: 147px;
+        position: absolute;
+        top: 25%;
+        width: 81%;
+    }
+    .left-arrow{
+        top: -51px;
+        position: relative;
+        left: -1px;
+    }
+    .right-arrow{
+        height: 77px;
+        position: relative;
+        left: 145px;
+        top: -51px;
+    }
+    .tutorial-image{
+        position: relative;
+        width: 770px;
+        left: 145px;
+    }
+    .tutorial-survey-btn-container {
+        margin: auto;
+        width: 50%;
+        left: 4px;
+        position: relative;
+    }
+    .tutorial-survey-btn {
+        border: 3px solid #b7b7b7;
+        font-size: 16px;
+        padding: 3px 33px 2px 36px;
+        border-radius: 28px;
+        color: #b7b7b7;
+        background-color: #424242;
+    }
+    .Tutorial-lead-text{
+        margin-left: -55px;
+        margin-bottom: 38px;
+        color: #010101;
+        font-family: "AdelleSansLight", sans-serif;
+        font-size: 40px;
+        margin-top: 38px;
+    }
+    .tutorial-tell-us{
+        position: relative;
+        left: 0px;
+        padding: 24px;
+        width: 1140px;
+        color: #ffffff;
+        background: #424242;
+        margin-top: 92px;
+    }
+    .ft-tutorial-contact-container {
+        height: 107px;
+        width: 1140px;
+        left: 0;
+        position: relative;
+    }
     .thankyou-lines{
         color: red;
         font-size: 22px;
@@ -1809,6 +1969,7 @@ a:focus{
         margin-top: -23px;
     }
     .footer-container{
+        margin-bottom: 150px;
         max-width: 1005px;
         position: relative;
         left: 63px;
@@ -1821,7 +1982,7 @@ a:focus{
     .need-help-form-container{
         left: 61px;
         position: relative;
-        top: 0px;
+        top: -28px;
     }
     .contact-us-heading{
         font-family: "AdelleSansLight", sans-serif;
@@ -1858,7 +2019,7 @@ a:focus{
     .ip-block-light{
         color: #017867;
         font-family: "AdelleSansLight", sans-serif;
-        font-size: 25px;
+        font-size: 26px;
         margin-bottom: 36px;
         text-decoration:  none !important;
     }
@@ -2036,7 +2197,7 @@ a:focus{
         margin-left: 76px;
     }
     .download-btn-test-card{
-        padding: 8px 25.6px 6px;
+        padding: 8px 23px 5px 19px;
         border-radius: 18px;
     }
     .download-btn-container{
@@ -2141,10 +2302,6 @@ a:focus{
         font-family: "AdelleSansLight", sans-serif;
         font-size: 24px;
         color:#333333;
-    }
-
-    .merchants-paragraph a {color: #007867;
-
     }
     .hero-post-support-red-block{
         padding: 15px 0 0 20px;
@@ -2321,20 +2478,21 @@ a:focus{
         background: #ebebeb;
     }
     .contact-cust-service-label {
-        font-family: "AdelleSansRegular", sans-serif;
+        font-family: "AdelleSansLight", sans-serif;
         font-size: 20px;
         padding: 0 245px 6px 0;
     }
     .contact-phone {
         position: relative;
         padding: 0 107px 0 0;
-        font-family: "AdelleSansBold", sans-serif;
+        font-family: "AdelleSansLight", sans-serif;
         font-size: 20px;
         font-weight: 300;
         left: -99px;
     }
     .contact-link{
         font-size: 16px;
+        cursor: pointer;
         font-family: "AdelleSansLight", sans-serif;
     }
     .how-to-lead {
@@ -2727,6 +2885,7 @@ a:focus{
 }
 
 .trademark-container {
+    font-family: "AdelleSansLight", sans-serif;
     font-size: 12px;
 }
 
@@ -2743,6 +2902,7 @@ a:focus{
 
 }
 .daysofweek{
+    font-family: "AdelleSansLight", sans-serif;
     height: 19px;
     position: relative;
     text-align: center;
