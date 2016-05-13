@@ -36,7 +36,7 @@
             },
             {
                 image: "src/app/assets/ipFrames/Step_2_0.jpg",
-                audio: "src/app/assets/ipFrames/2_0.mp3",
+                audio: "src/app/assets/ipFrames/Step_2_0.mp3",
                 next: "click"
             },
             {
