@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]>
+<html class="no-js ie iem7" lang="en" dir="ltr"><![endif]-->
+<!--[if lte IE 6]>
+<html class="no-js ie lt-ie9 lt-ie8 lt-ie7" lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]>
+<html class="no-js ie lt-ie9 lt-ie8" lang="en" dir="ltr"><![endif]-->
+<!--[if IE 8]>
+<html class="no-js ie lt-ie9" lang="en" dir="ltr"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]>
+<html class="no-js ie" lang="en" dir="ltr"><![endif]-->
+<!--[if !IE]><!-->
+<html class="no-js" lang="en-us" dir="ltr"><!--<![endif]-->
+<head>
+    <title>US | Worldpay</title>
+    <!--[if lte IE 8]>
+    <meta content="content-type" content="text/html; charset=utf-8"/><![endif]-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="http://www.worldpay.com/sites/all/themes/worldpay_subthemev2/favicon.ico"
+          type="image/vnd.microsoft.icon"/>
+    <link rel="profile" href="http://www.w3.org/1999/xhtml/vocab"/>
+    <meta name="MobileOptimized" content="width"/>
+
+    <!--[if IEMobile]>
+    <meta http-equiv="cleartype" content="on"/>
+    <![endif]-->
+    <meta name="HandheldFriendly" content="true"/>
+    <link rel="shortlink" href="http://www.worldpay.com/us"/>
+    <meta name="description" content="Worldpay US Home"/>
+    <meta name="abstract" content="Worldpay US Home"/>
+    <meta name="keywords" content="Worldpay"/>
+    <link rel="canonical" href="http://www.worldpay.com/us"/>
+    <meta name="generator" content="Drupal 7 (http://drupal.org)"/>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="Expires" content="0"/>
+
+    <link href="src/app/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="src/app/lib/jquery/jquery-ui-1.11.4.custom/jquery-ui.min.css" rel="stylesheet">
+    <link href="src/app/css/wp_styles.css" rel="stylesheet">
+
+</head>
+<body data-ng-app="emv">
+<!-- Tag Manager -->
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TGMWL5"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TGMWL5');</script>
+<!-- End Google Tag Manager -->
+<!-- Nav bar --->
+<!-- Static navbar -->
+<nav class="navbar navbar-default navbar-static-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#">
+                <img class="logo" src="src/app/assets/img/wp-logo.png" alt="Worldpay"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a ui-sref="merchant-portal">Merchant Portal (US)</a></li>
+                <li><a ui-sref="faqs">FAQs</a></li>
+                <li><a ui-sref="contact">Contact Us</a></li>
+                <li class="visible-xs-block"><a id="updateEMV" href="#/updateEMV#getUpdate">Get The Emv Update</a></li>
+                <li class="visible-xs-block"><a id="post-support" ui-sref="post-support">EMV Update Support</a></li>
+                <li class="visible-xs-block"><a id="emv101" ui-sref="emv101">EMV 101</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+
+
+<div class="container">
+    <!--WP Links Header section -->
+    <div class="row header-sm">
+        <div class="col-xs-12 col-sm-12 emv-links">
+            <div class="links-container">
+                <a id="updateEMV" ui-sref="getUpdate" style="padding: 0 96px 76px 0;" class="emv-color visible-sm-inline visible-md-inline visible-lg-inline">Get The EMV Update</a>
+                <a id="post-support" ui-sref="post-support" style="padding-right: 96px;" class="emv-color visible-sm-inline visible-md-inline visible-lg-inline">EMV Update Support</a>
+                <a id="emv101" ui-sref="emv101" class="emv-color visible-sm-inline visible-md-inline visible-lg-inline">EMV 101</a>
+            </div>
+        </div>
+    </div>
+    <!-- End Header -->
+    <!-- NG View -->
+    <div ui-view></div>
+    <!--start footer -->
+
+    <!--footer links -->
+    <div class="footer-container">
+        <div class="row">
+            <div class="col-xs-3 col-sm-9">
+                <div class="footer-links-container">
+                    <span class="ft-wp-link"><a ui-sref="worldpay" style="color: #007867;">Worldpay.com</a></span>
+                    <span class="ft-about-link"><a ui-sref="about" style="color: #007867;">About Us</a></span>
+                    <span class="ft-terms-link"><a ui-sref="terms" style="color: #007867;">Terms & Conditions</a></span>
+                </div>
+            </div>
+            <div class="col-xs-9 col-sm-3">
+                <div style="margin-left: 3px;">
+                    <span><img ui-sref="linkedin"  class="linkedin-btn" src="src/app/assets/img/linkedin-btn.png"></span>
+                    <span><img ui-sref="google"  class="google-plus-btn" src="src/app/assets/img/googleplus-btn.png"></span>
+                    <span><img ui-sref="youtube"  class="youtube-btn" src="src/app/assets/img/youtube-btn.png"></span>
+                    <span><img ui-sref="twitter"  class="twitter-btn" src="src/app/assets/img/twitter-btn.png"></span>
+                    <span><img ui-sref="facebook"  class="facebook-btn" src="src/app/assets/img/facebook-btn.png"></span>
+                </div>
+            </div>
+        </div>
+        <!--Footer Trademark, copyright.. etc -->
+        <div class="row trademark-container">
+            <div class="col-xs-12 col-sm-12">
+                <div style="margin-bottom: 50px;">
+                    <span>&copy;Worldpay 2016. All rights reserved. Worldpay, the logo and associated brand names are trademarks of the Worldpay group of companies. All other trademarks are the property of their respective owners. Worldpay US, Inc.is a registered ISO/MSP of Citizens Bank, N.A. Worldpay SN, LLC is a registered ISO/MSP of Wells Fargo Bank, N.A. and Eagle Bank, N.A. This content is not intended to provide a complete explanation of applicable laws, rules or regulations. It should not be considered legal or compliance advice. Individual situations will differ, and any questions or concerns should be discussed with your own lawyers and advisors.</span>
+                </div>
+                <div class="footer-registration">*EMV is a registered trademark or trademark of EMVCo LLC in the United States and other countries. </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="src/app/lib/jquery/jquery-1.12.3.min.js"></script>
+<script src="src/app/lib/jquery/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+<script src="src/app/lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="src/app/lib/angular/angular.min.js"></script>
+<script src="src/app/lib/angular/ui-router/angular-ui-router.js"></script>
+<script src="src/app/lib/angular/ui-bootstrap-tpls-1.3.2.min.js"></script>
+<script src="//app-sj06.marketo.com/js/forms2/js/forms2.min.js"></script>
+<script type="text/javascript" src="src/app/js/main.js"></script>
+<script type="text/javascript" src="src/app/js/components/MainController.js"></script>
+<script type="text/javascript" src="src/app/js/components/Tutorial/TutorialController.js"></script>
+<script type="text/javascript" src="src/app/js/components/Concierge/ConciergeController.js"></script>
+<script type="text/javascript" src="src/app/js/components/Contact/ContactController.js"></script>
+<script type="text/javascript" src="src/app/js/components/Help/HelpController.js"></script>
+<script type="text/javascript" src="src/app/js/components/Order/OrderController.js"></script>
+<script type="text/javascript" src="src/app/js/components/EMV101/EMV101Controller.js"></script>
+<script type="text/javascript" src="src/app/js/components/Post-Support/PostSupportController.js"></script>
+<script type="text/javascript" src="src/app/js/components/Faqs/FaqsController.js"></script>
+<script type="text/javascript" src="src/app/js/components/Thankyou/ThankYouController.js"></script>
+<script type="text/javascript" src="src/app/js/components/modals/not-sure-of-connection/NotSureOfConnectionController.js"></script>
+</body>
+</html>
