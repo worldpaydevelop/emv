@@ -42,21 +42,30 @@
     <link href="src/app/css/wp_styles.css" rel="stylesheet">
 
 </head>
-<body data-ng-app="emv">
+<body data-ng-app="emv" ng-class="{'tutorial-bg':tutorial}">
 <!-- Tag Manager -->
 
 <!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TGMWL5"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-TGMWL5');</script>
+<noscript>
+    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-T88QZZ"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<script>(function (w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({
+        'gtm.start': new Date().getTime(), event: 'gtm.js'
+    });
+    var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+    j.async = true;
+    j.src =
+            '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+    f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', 'GTM-T88QZZ');</script>
 <!-- End Google Tag Manager -->
 <!-- Nav bar --->
 <!-- Static navbar -->
-<nav class="navbar navbar-default navbar-static-top">
+<nav class="navbar navbar-default navbar-static-top" ng-class="{'tutorial-navbar-default':tutorial}">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
@@ -111,11 +120,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </div>
             <div class="col-xs-9 col-sm-3">
                 <div style="margin-left: 3px;">
-                    <span><img ui-sref="linkedin"  class="linkedin-btn" src="src/app/assets/img/linkedin-btn.png"></span>
-                    <span><img ui-sref="google"  class="google-plus-btn" src="src/app/assets/img/googleplus-btn.png"></span>
-                    <span><img ui-sref="youtube"  class="youtube-btn" src="src/app/assets/img/youtube-btn.png"></span>
-                    <span><img ui-sref="twitter"  class="twitter-btn" src="src/app/assets/img/twitter-btn.png"></span>
-                    <span><img ui-sref="facebook"  class="facebook-btn" src="src/app/assets/img/facebook-btn.png"></span>
+                    <span><img ui-sref="linkedin" class="linkedin-btn" src="src/app/assets/img/linkedin-btn.png"></span>
+                    <span><img ui-sref="google" class="google-plus-btn" src="src/app/assets/img/googleplus-btn.png"></span>
+                    <span><img ui-sref="youtube" class="youtube-btn" src="src/app/assets/img/youtube-btn.png"></span>
+                    <span><img ui-sref="twitter" class="twitter-btn" src="src/app/assets/img/twitter-btn.png"></span>
+                    <span><img ui-sref="facebook" class="facebook-btn" src="src/app/assets/img/facebook-btn.png"></span>
                 </div>
             </div>
         </div>
