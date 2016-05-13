@@ -154,7 +154,7 @@ a:focus{
 }
 
 .links-container {
-    font-size: 14px;
+    font-size: 14pt;
     font-family: "AdelleSansRegular", sans-serif;
     font-weight: 300;
     position: relative;
@@ -195,7 +195,7 @@ a:focus{
 
 .not-sure-link{
     text-decoration: underline;
-    color:#007867;
+    color:black;
     cursor:pointer;
 }
 .not-sure-link:hover{
@@ -701,7 +701,7 @@ a:focus{
     .footer-links-container {
         line-height: 2;
         color: #007867;
-        font-weight: 400;
+        font-weight: bold;
         font-size: 12px;
         margin-bottom: 60px;
     }
@@ -824,6 +824,12 @@ a:focus{
     .lead-text {
         margin-bottom: 38px;
         color: #333;
+        font-family: "AdelleSansLight", sans-serif;
+        font-size: 28px;
+    }
+    .Tutorial-lead-text {
+        margin-bottom: 38px;
+        color: #010101;
         font-family: "AdelleSansLight", sans-serif;
         font-size: 28px;
     }
@@ -1503,7 +1509,7 @@ a:focus{
         top: -83px;
     }
     .download-btn-test-card{
-        padding: 8px 25.6px 6px;
+        padding: 8px 23px 5px 19px;
         border-radius: 18px;
         font-size: 16px;
         background: #007867;
@@ -1625,7 +1631,7 @@ a:focus{
         border-color:#017867;
     }
     .cc-present-transactions{
-        margin-bottom: 25px;
+        margin-bottom: 105px;
     }
     .cc-fraud-container{
         position: relative;
@@ -1702,7 +1708,7 @@ a:focus{
     }
     .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
         float: left;
-        padding: 10px 40px 8px 40px;
+        padding: 10px 70px 8px 70px;
         text-decoration: none;
     }
     .contact-us-container{
@@ -1729,7 +1735,11 @@ a:focus{
     .need-help-form-container{
         left: 61px;
         position: relative;
+<<<<<<< HEAD
         top: 2px;
+=======
+        top: -28px;
+>>>>>>> de082f4245d5b2ac551f40e20a4366f460443943
     }
     .footer-container{
         max-width: 1005px;
@@ -1993,7 +2003,11 @@ a:focus{
     .need-help-form-container{
         left: 61px;
         position: relative;
+<<<<<<< HEAD
         top: 2px;
+=======
+        top: -28px;
+>>>>>>> de082f4245d5b2ac551f40e20a4366f460443943
     }
     .contact-us-heading{
         font-family: "AdelleSansLight", sans-serif;
@@ -2211,7 +2225,7 @@ a:focus{
         margin-left: 76px;
     }
     .download-btn-test-card{
-        padding: 8px 25.6px 6px;
+        padding: 8px 23px 5px 19px;
         border-radius: 18px;
         font-size: 16px;
         background: #007867;
@@ -2902,7 +2916,11 @@ a:focus{
 }
 
 .trademark-container {
+<<<<<<< HEAD
     font-family: "AdelleSansRegular", sans-serif;
+=======
+    font-family: "AdelleSansLight", sans-serif;
+>>>>>>> de082f4245d5b2ac551f40e20a4366f460443943
     font-size: 12px;
     color: #333;
     font-weight: 100;

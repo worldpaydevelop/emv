@@ -1,0 +1,62 @@
+0000000000000000000000000000000000000000 c915683d61820756702b1d35b78e7c35345d63e6 skytow <acepci@gmail.com> 1461807556 -0400	commit (initial): commit WP EMV Update Project
+c915683d61820756702b1d35b78e7c35345d63e6 118be069114c74b720a5190f98b568009bc5dd7e skytow <acepci@gmail.com> 1461807557 -0400	commit (amend): commit WP EMV Update Project
+118be069114c74b720a5190f98b568009bc5dd7e e81e884e6b369f06410c976342b7ca737bf10f79 skytow <acepci@gmail.com> 1461812849 -0400	commit: added arrow pngs
+e81e884e6b369f06410c976342b7ca737bf10f79 04a9f7df457385bf789d7da1e5a2e343a43366e7 skytow <acepci@gmail.com> 1461813388 -0400	commit: added foward click
+04a9f7df457385bf789d7da1e5a2e343a43366e7 d753b63b12be5edb5496d474c91b78accbabdce4 skytow <acepci@gmail.com> 1461815397 -0400	commit: added arrows to image
+d753b63b12be5edb5496d474c91b78accbabdce4 380b9b2842f16f59bcfe6676bb56bf50bc40e6aa skytow <acepci@gmail.com> 1461816341 -0400	commit: imported anthonys code
+380b9b2842f16f59bcfe6676bb56bf50bc40e6aa 78cb4ce51831ba3c5d6926863dc8f25159f0c82a skytow <acepci@gmail.com> 1461816462 -0400	commit: imported anthonys code
+78cb4ce51831ba3c5d6926863dc8f25159f0c82a 793a19e5abcbe82b676ad34f56fe135ecea81826 skytow <acepci@gmail.com> 1462296671 -0400	pull --progress --no-stat -v --progress origin master: Fast-forward
+793a19e5abcbe82b676ad34f56fe135ecea81826 0f9941b1884243cb6b81eccd99cd5da0dd91ade9 skytow <acepci@gmail.com> 1462298003 -0400	commit: fixed color and font for ip connection label
+0f9941b1884243cb6b81eccd99cd5da0dd91ade9 ce85d9e16a077772bf5e38dd78f6d059f0282194 skytow <acepci@gmail.com> 1462300510 -0400	commit: reversed terminal and order pin pad cta's
+ce85d9e16a077772bf5e38dd78f6d059f0282194 14f9002cfb323910ef0693040f6bca7f3689b47f skytow <acepci@gmail.com> 1462302462 -0400	commit: added concierge form
+14f9002cfb323910ef0693040f6bca7f3689b47f 6e1490d5f098ca7c1c95c0a7e2d28cdeedc8f5cb skytow <acepci@gmail.com> 1462307130 -0400	commit: added emv101
+6e1490d5f098ca7c1c95c0a7e2d28cdeedc8f5cb 731806b51a82cd8dd4176a1d549d8ffd7cd7395b skytow <acepci@gmail.com> 1462309039 -0400	commit: added emv101 hero
+731806b51a82cd8dd4176a1d549d8ffd7cd7395b 0ca7e224277a855b13a6e26d4b7d0fb1b212c472 skytow <acepci@gmail.com> 1462315478 -0400	commit: added emv101 merchants jumbotron
+0ca7e224277a855b13a6e26d4b7d0fb1b212c472 0675ef4b1ad044bfc842f0ab7210ccf6b0abc00e skytow <acepci@gmail.com> 1462317208 -0400	commit: added best practice section with red circles
+0675ef4b1ad044bfc842f0ab7210ccf6b0abc00e 4ea4e63e7ab3cb2913f4da30e466ded150d3f39a skytow <acepci@gmail.com> 1462366691 -0400	commit: added ccr section
+4ea4e63e7ab3cb2913f4da30e466ded150d3f39a 4586db639cff12716708da92ddda202a497e3396 skytow <acepci@gmail.com> 1462370875 -0400	commit: added ccr section images
+4586db639cff12716708da92ddda202a497e3396 02323f604a6eb6c3a2d76aebbf73811f06eee611 skytow <acepci@gmail.com> 1462371776 -0400	commit: finished ccr section
+02323f604a6eb6c3a2d76aebbf73811f06eee611 4740978e46cdf4cab978ba3d9b7c96da7bc569ee skytow <acepci@gmail.com> 1462373511 -0400	commit: added download btn for emv101 page
+4740978e46cdf4cab978ba3d9b7c96da7bc569ee 961a291b17ca0f3c48b702ebfd7fedde9d2ab17d skytow <acepci@gmail.com> 1462376269 -0400	commit: completed layout.
+961a291b17ca0f3c48b702ebfd7fedde9d2ab17d 4780515036a7b0e5833d7f531cb8c69047b46d1d skytow <acepci@gmail.com> 1462387645 -0400	commit: added links for emv101
+4780515036a7b0e5833d7f531cb8c69047b46d1d 73e0ceab6515d6c70718b708e72296a1367269fa skytow <acepci@gmail.com> 1462390824 -0400	commit: cleanup
+73e0ceab6515d6c70718b708e72296a1367269fa 6af08f3edc4fa30c944c560af7278efc375cb2a2 skytow <acepci@gmail.com> 1462397413 -0400	commit: cleanup for emv101 mobile
+6af08f3edc4fa30c944c560af7278efc375cb2a2 2dd705b7548720001a13a23b7a5ae6dfb7891d1b skytow <acepci@gmail.com> 1462398056 -0400	commit: added post-support directory and templates
+2dd705b7548720001a13a23b7a5ae6dfb7891d1b c0efa51babf01eba61bd4d325085b019f2f9bd8a skytow <acepci@gmail.com> 1462399637 -0400	commit: cleanup for post support page
+c0efa51babf01eba61bd4d325085b019f2f9bd8a 4673c71cc7f87e822b564d0fb40fa03fdb7c6dd8 skytow <acepci@gmail.com> 1462459600 -0400	commit: added pdf container
+4673c71cc7f87e822b564d0fb40fa03fdb7c6dd8 6d1ede5a9f2a59b717781c62678c548ddbae0ed3 skytow <acepci@gmail.com> 1462459870 -0400	commit: added template for need help sticky
+6d1ede5a9f2a59b717781c62678c548ddbae0ed3 8f8732a5c7595feb7e22aaa19239c54514149e8c skytow <acepci@gmail.com> 1462465744 -0400	commit: fixed anchorscroll problem
+8f8732a5c7595feb7e22aaa19239c54514149e8c b3683dfc6ec44156b5ef97bbe01e9b85e5c313da skytow <acepci@gmail.com> 1462467918 -0400	commit: fixed anchorscroll problem for emv101
+b3683dfc6ec44156b5ef97bbe01e9b85e5c313da 01f7283747bb86a2df8dded2caa4d3f7058afd88 skytow <acepci@gmail.com> 1462488767 -0400	commit: added faqs
+01f7283747bb86a2df8dded2caa4d3f7058afd88 a97e50703d47e23bf5c2596a86f0585e5ea70477 skytow <acepci@gmail.com> 1462491064 -0400	commit: faqs added questions and help links
+a97e50703d47e23bf5c2596a86f0585e5ea70477 4e483de2e205a041ac3656cd6e0326f17e5e5fed skytow <acepci@gmail.com> 1462498349 -0400	commit: faqs added added paragraphs
+4e483de2e205a041ac3656cd6e0326f17e5e5fed 3a48f412fc073a40bd7e0add823b326f786d4df7 skytow <acepci@gmail.com> 1462499946 -0400	commit: faqs added still cant find section
+3a48f412fc073a40bd7e0add823b326f786d4df7 22575946f3e754e786cb8f726fffa5f786d149e2 skytow <acepci@gmail.com> 1462501846 -0400	commit: finished faqs desktop markup
+22575946f3e754e786cb8f726fffa5f786d149e2 8fb3798ecff8b674db14d5e685357dff561f0772 skytow <acepci@gmail.com> 1462538559 -0400	commit: cleanup post support- added new sections.
+8fb3798ecff8b674db14d5e685357dff561f0772 d85d6357bc18d89b3d70b07ff067a573bf9b73a1 skytow <acepci@gmail.com> 1462539315 -0400	commit: cleanup post support styling issues
+d85d6357bc18d89b3d70b07ff067a573bf9b73a1 15f8b1f12063ea6fb1d17a527f9ddd9a45524f76 skytow <acepci@gmail.com> 1462539474 -0400	commit: styling change for contact footer
+15f8b1f12063ea6fb1d17a527f9ddd9a45524f76 7aff2793b544c093d279d0ad79d662204f0823c1 skytow <acepci@gmail.com> 1462541740 -0400	commit: added links for faqs links section.
+7aff2793b544c093d279d0ad79d662204f0823c1 61a3fafdb3f4828b8dd5c7050e976312c231c4bf skytow <acepci@gmail.com> 1462541943 -0400	commit: added help sticky
+61a3fafdb3f4828b8dd5c7050e976312c231c4bf 670bb67c503718c15ed91ed3a689ff7d113b62bf skytow <acepci@gmail.com> 1462544911 -0400	commit: cleanup emv101 img and text for steps to prepare section
+670bb67c503718c15ed91ed3a689ff7d113b62bf 3fb479a5f23368e38857323582b0a03fff367e4a skytow <acepci@gmail.com> 1462550507 -0400	commit: cleanup emv101 for mobile
+3fb479a5f23368e38857323582b0a03fff367e4a 25187a27bd076eaa888cc53bdd4e423030295812 skytow <acepci@gmail.com> 1462554445 -0400	commit: cleanup emv101 for mobile
+25187a27bd076eaa888cc53bdd4e423030295812 56c5a4526fc3a6c7bad3db7f29b97064110b0993 skytow <acepci@gmail.com> 1462564974 -0400	commit: cleanup home page
+56c5a4526fc3a6c7bad3db7f29b97064110b0993 e881b0a3a1b391961a9a2c5b104d16c95c8636f3 skytow <acepci@gmail.com> 1462565208 -0400	commit: added routes for home page
+e881b0a3a1b391961a9a2c5b104d16c95c8636f3 3197bdb93202bbdaba64d3192972a2bf3c4effb1 skytow <acepci@gmail.com> 1462565801 -0400	commit: added quotes for testimonials
+3197bdb93202bbdaba64d3192972a2bf3c4effb1 1cfcbe123ba3310f4edf3ab14509ca2bf8c2f9e2 skytow <acepci@gmail.com> 1462569149 -0400	commit: finished mobile homepage
+1cfcbe123ba3310f4edf3ab14509ca2bf8c2f9e2 7f1898f918c9631f4a9497b2140222ed9bc66cbb skytow <acepci@gmail.com> 1462573390 -0400	commit: finished mobile support page
+7f1898f918c9631f4a9497b2140222ed9bc66cbb b65a7119fddf6bcd180e9d83a8758ae9b99e4af5 skytow <acepci@gmail.com> 1462573997 -0400	commit: finished mobile emv101
+b65a7119fddf6bcd180e9d83a8758ae9b99e4af5 eb4aae262b917367c449d4c595cd2d9faa46aee9 skytow <acepci@gmail.com> 1462575192 -0400	commit: finished mobile faqs
+eb4aae262b917367c449d4c595cd2d9faa46aee9 c11018afb2c60ad6a0ff34f5fec457c75a3bcb96 skytow <acepci@gmail.com> 1462576489 -0400	commit: added pdfs
+c11018afb2c60ad6a0ff34f5fec457c75a3bcb96 0f6c332febfe9e4272dfd49c32cb822a1c9681a6 skytow <acepci@gmail.com> 1462577498 -0400	commit: added hero to contact us
+0f6c332febfe9e4272dfd49c32cb822a1c9681a6 bc3df82ad4615cac95878f9d66a835aab795b7b7 skytow <acepci@gmail.com> 1462579438 -0400	commit: fixed footer
+bc3df82ad4615cac95878f9d66a835aab795b7b7 e92c8dcbed519546fe4c83d8d5bb1945dfb00f38 skytow <acepci@gmail.com> 1462580422 -0400	commit: fixed links
+e92c8dcbed519546fe4c83d8d5bb1945dfb00f38 52d5bfa08af111c1dc98c1a279221d5d7287e464 skytow <acepci@gmail.com> 1462580980 -0400	commit: fixed links
+52d5bfa08af111c1dc98c1a279221d5d7287e464 4f278429f75342c5dbe21c120ced6074756e7870 skytow <acepci@gmail.com> 1462585935 -0400	commit: lined up containers
+4f278429f75342c5dbe21c120ced6074756e7870 3017497d22c66d6570153fb0b1cd8928788dc276 skytow <acepci@gmail.com> 1462586129 -0400	commit: fixed a new standard paragraph on home page
+3017497d22c66d6570153fb0b1cd8928788dc276 79658c98b413bc91afe2fd252e38614c6f322dec skytow <acepci@gmail.com> 1462586473 -0400	commit: finished
+79658c98b413bc91afe2fd252e38614c6f322dec e9ecb7c6e10729434a60ac79f11aaf9998c0104c skytow <acepci@gmail.com> 1462739968 -0400	commit: fixed need help heading
+e9ecb7c6e10729434a60ac79f11aaf9998c0104c 5c6497da466177e86e22f0eddf6b97b9b263bd2f skytow <acepci@gmail.com> 1462750222 -0400	commit: fixed not sure connection modal
+5c6497da466177e86e22f0eddf6b97b9b263bd2f 7c8fdee8da388a7a84caf4440f10d16b0625e7c5 skytow <acepci@gmail.com> 1462753653 -0400	commit: fixed faqs button color
+7c8fdee8da388a7a84caf4440f10d16b0625e7c5 ff78f0d0b9b0ffba7ad0a9c614d3afd433731e99 skytow <acepci@gmail.com> 1462754997 -0400	commit: fixed fixes
+ff78f0d0b9b0ffba7ad0a9c614d3afd433731e99 a95163c83278642f1729cad18e8e9a5cb44ef0fd skytow <acepci@gmail.com> 1462811447 -0400	commit: fixed urls
