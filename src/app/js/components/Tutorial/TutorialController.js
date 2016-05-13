@@ -179,42 +179,10 @@
         ];
 
         vm.openInstructions = function() { window.open("src/app/assets/pdf/Batch_out_instructions.pdf", "_blank"); };
-<<<<<<< HEAD
+
         vm.openSurvey = function() { window.open("https://www.worldpay.us/emvsurvey", "_blank"); };
-=======
-        vm.openSurvey = function() { window.open("https://www.surveymonkey.com/r/5SJG5BT", "_blank"); };
->>>>>>> de082f4245d5b2ac551f40e20a4366f460443943
-        vm.frameClick = function(event){
-            if(!audio) { audio = new Audio(); }
-            if(audio.src && !audio.paused) {
-                audio.pause(); return;
-            } else if(audio && audio.src && !audio.ended && audio.paused) {
-                audio.play(); return;
-            }
 
-            var instrClick = vm.isInstructionsClick(event);
-            var checkboxClick = vm.isCheckboxClick(event);
-            var restartClick = vm.isRestartClick(event);
 
-            if(vm.fi >= 6 && restartClick) {
-                completed = {};
-                audio.pause();
-                audio.onended = null;
-                audio = null;
-                vm.fi = 0;
-                vm.setFrame();
-                return;
-            }
-
-            var f = frames[vm.fi];
-            if(f.instr && instrClick) { vm.openInstructions(); return; }
-            if(f.next === "checkbox" && checkboxClick) { vm.fi++; vm.setFrame(); return; }
-            if(f.next === "click" || f.next === "audio-end" || f.next.indexOf("timeout") === 0) {
-                completed[vm.fi] = true;
-                vm.fi++;
-                vm.setFrame();
-            }
-        };
         vm.setFrame = function() {
             var frame = document.getElementById("frame");
             var f = frames[vm.fi];
