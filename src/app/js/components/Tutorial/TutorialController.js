@@ -179,7 +179,11 @@
         ];
 
         vm.openInstructions = function() { window.open("src/app/assets/pdf/Batch_out_instructions.pdf", "_blank"); };
+<<<<<<< HEAD
+        vm.openSurvey = function() { window.open("https://www.worldpay.us/emvsurvey", "_blank"); };
+=======
         vm.openSurvey = function() { window.open("https://www.surveymonkey.com/r/5SJG5BT", "_blank"); };
+>>>>>>> de082f4245d5b2ac551f40e20a4366f460443943
         vm.frameClick = function(event){
             if(!audio) { audio = new Audio(); }
             if(audio.src && !audio.paused) {

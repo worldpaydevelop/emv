@@ -451,6 +451,7 @@ a:focus{
         border-radius: 18px;
         left: -6px;
         top: -18px;
+        color: #fff !important;
     }
     .download-btn-container{
         left: 81px;
@@ -490,7 +491,7 @@ a:focus{
         left: -22px;
     }
     .cc-present-transactions{
-        margin-bottom: 105px;
+        margin-bottom: 25px;
     }
     .contact-us-btn{
         font-size: 16px;
@@ -542,6 +543,9 @@ a:focus{
         margin-left: 38px;
         font-size: 14px;
         font-family: "AdelleSansThin", sans-serif;
+    }
+    .faqs-paragraph a{color: #007867!important;
+                      text-decoration: underline !important;
     }
     .five-steps-list{
         font-size: 14px;
@@ -780,7 +784,7 @@ a:focus{
     .how-to-lead {
         margin-bottom: 27px;
         position: relative;
-        color: #010101;
+        color: #333;
         font-family: "AdelleSansLight", sans-serif;
         font-size: 24px;
         left: 11px;
@@ -818,6 +822,12 @@ a:focus{
         border-color: #b7b7b7;
     }
     .lead-text {
+        margin-bottom: 38px;
+        color: #333;
+        font-family: "AdelleSansLight", sans-serif;
+        font-size: 28px;
+    }
+    .Tutorial-lead-text {
         margin-bottom: 38px;
         color: #010101;
         font-family: "AdelleSansLight", sans-serif;
@@ -1501,6 +1511,10 @@ a:focus{
     .download-btn-test-card{
         padding: 8px 23px 5px 19px;
         border-radius: 18px;
+        font-size: 16px;
+        background: #007867;
+        border-radius: 18px;
+        color: #fff !important;
     }
     .what-is-emv-container{
         margin-bottom: -92px;
@@ -1551,6 +1565,9 @@ a:focus{
         margin-left: 38px;
         font-size: 14px;
         font-family: "AdelleSansThin", sans-serif;
+    }
+    .faqs-paragraph a{color: #007867!important;
+                      text-decoration: underline !important;
     }
     .five-steps-list{
         font-size: 14px;
@@ -1718,7 +1735,11 @@ a:focus{
     .need-help-form-container{
         left: 61px;
         position: relative;
+<<<<<<< HEAD
+        top: 2px;
+=======
         top: -28px;
+>>>>>>> de082f4245d5b2ac551f40e20a4366f460443943
     }
     .footer-container{
         max-width: 1005px;
@@ -1732,7 +1753,7 @@ a:focus{
     }
     .footer-links-container {
         color: #007867;
-        font-weight: bold;
+        font-weight: 400;
         font-size: 12px;
         margin-bottom: 60px;
     }
@@ -1960,7 +1981,7 @@ a:focus{
     }
     .footer-links-container {
         color: #007867;
-        font-weight: bold;
+        font-weight: 400;
         font-size: 12px;
         margin-bottom: 60px;
     }
@@ -1982,7 +2003,11 @@ a:focus{
     .need-help-form-container{
         left: 61px;
         position: relative;
+<<<<<<< HEAD
+        top: 2px;
+=======
         top: -28px;
+>>>>>>> de082f4245d5b2ac551f40e20a4366f460443943
     }
     .contact-us-heading{
         font-family: "AdelleSansLight", sans-serif;
@@ -2003,7 +2028,7 @@ a:focus{
     }
     .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
         float: left;
-        padding: 10px 70px 8px 70px;
+        padding: 10px 40px 8px 40px;
         text-decoration: none;
     }
     .ui-tabs .ui-tabs-nav li {
@@ -2081,7 +2106,7 @@ a:focus{
         left: -34px;
     }
     .cc-present-transactions{
-        margin-bottom: 105px;
+        margin-bottom: 25px;
     }
     .contact-us-btn{
         font-size: 16px;
@@ -2145,6 +2170,9 @@ a:focus{
         font-size: 14px;
         font-family: "AdelleSansThin", sans-serif;
     }
+    .faqs-paragraph a{color: #007867!important;
+                      text-decoration: underline !important;
+    }
     .five-steps-list{
         font-size: 14px;
         font-family: "AdelleSansRegular", sans-serif;
@@ -2199,6 +2227,9 @@ a:focus{
     .download-btn-test-card{
         padding: 8px 23px 5px 19px;
         border-radius: 18px;
+        font-size: 16px;
+        background: #007867;
+        color: #fff !important;
     }
     .download-btn-container{
         width: 17%;
@@ -2885,8 +2916,15 @@ a:focus{
 }
 
 .trademark-container {
+<<<<<<< HEAD
+    font-family: "AdelleSansRegular", sans-serif;
+=======
     font-family: "AdelleSansLight", sans-serif;
+>>>>>>> de082f4245d5b2ac551f40e20a4366f460443943
     font-size: 12px;
+    color: #333;
+    font-weight: 100;
+
 }
 
 .code-of-conduct {
@@ -2907,11 +2945,12 @@ a:focus{
     position: relative;
     text-align: center;
     top: -84px;
+    left: 38px;`
     font-weight: bold;
 }
 .ip-block{
     color: #000000;
-    font-family: "AdelleSansSemiBold", sans-serif;
+    font-family: "AdelleSansLight", sans-serif;
     font-size: 26px;
     margin-bottom: 36px;
 }
