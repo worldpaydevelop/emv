@@ -106,7 +106,7 @@
             },
             {
                 image: "src/app/assets/ipFrames/Step_11_1.jpg",
-                audio: "src/app/assets/ipFrames/11_1.mp3",
+                audio: "src/app/assets/ipFrames/Step_11_1.mp3",
                 next: "click"
             },
             {
