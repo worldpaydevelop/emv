@@ -995,7 +995,7 @@ a:focus{
         margin-top: 401px;
     }
     .faqs-heading{
-        padding: 61px 0 41px 0;
+        padding: 61px 0 41px 5px;
         font-size: 26px;
         font-family: "AdelleSansLight", sans-serif;
     }
@@ -1553,7 +1553,7 @@ a:focus{
         margin-top: 5px;
     }
     .faqs-heading{
-        padding: 61px 0 41px 0;
+        padding: 61px 0 41px 5px;
         font-size: 44px;
         font-family: "AdelleSansLight", sans-serif;
     }
@@ -2182,7 +2182,7 @@ a:focus{
         font-family: "AdelleSansSemiBold", sans-serif;
     }
     .faqs-heading{
-        padding: 61px 0 41px 0;
+        padding: 61px 0 41px 5px;
         font-size: 44px;
         font-family: "AdelleSansLight", sans-serif;
     }
