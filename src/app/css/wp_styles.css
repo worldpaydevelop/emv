@@ -1938,6 +1938,15 @@ a:focus{
     }
 }
 @media only screen and (min-width: 1900px) {
+    .contact-home{
+        width: 1023px;
+        position: relative;
+        margin-bottom: 35px;
+        padding: 28px 0 0 36px;
+        height: 108px;
+        background: #ebebeb;
+        left: 61px;
+    }
     .links-container {
         font-size: 14pt;
         font-family: "AdelleSansRegular", sans-serif;
