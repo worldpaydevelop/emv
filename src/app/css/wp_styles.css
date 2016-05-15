@@ -1937,7 +1937,7 @@ a:focus{
         margin-left: -112px;
     }
 }
-@media only screen and (min-width: 1900px) {
+@media only screen and (min-width: 1024px) {
     .contact-home{
         width: 1023px;
         position: relative;
