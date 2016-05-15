@@ -1691,12 +1691,12 @@ a:focus{
     }
     .testimonials-box{
         line-height: 2;
-        background-image: url("../assets/img/testimonials-box.png");
         width: 720px;
         height: 722px;
         left: 25px;
         position: relative;
         padding: 33px 0 0 24px;
+        background: #f7f7f7;
     }
     .testimonials-container{
         position: relative;
