@@ -38,11 +38,10 @@
             controller: 'MainController',
             controllerAs: 'mainController',
             onEnter: function ($location, $anchorScroll, $state, $timeout) {
-                $timeout(function(){
-                    $location.hash('getUpdate');
-                    $anchorScroll();
-                    $location.path('/updateEMV');
-                },500);
+                $location.path('updateEMV');
+                $timeout(function() {
+                    $anchorScroll('getUpdate');
+                }, 500);
 
             }
         }).state('act-today', {
@@ -51,12 +50,10 @@
             controller: 'MainController',
             controllerAs: 'mainController',
             onEnter: function ($location, $anchorScroll, $state, $timeout) {
-                $timeout(function(){
-                    $location.hash('act-today');
-                    $anchorScroll();
-                    $location.path('/updateEMV');
-                },500);
-
+                $location.path('act-today');
+                $timeout(function() {
+                    $anchorScroll('act-today');
+                }, 500);
             }
         }).state('testimonials', {
             url: '/testimonials',
@@ -64,12 +61,10 @@
             controller: 'MainController',
             controllerAs: 'mainController',
             onEnter: function ($location, $anchorScroll, $state, $timeout) {
-                $timeout(function(){
-                    $location.hash('testimonials');
-                    $anchorScroll();
-                    $location.path('/updateEMV');
-                },500);
-
+                $location.path('testimonials');
+                $timeout(function() {
+                    $anchorScroll('testimonials');
+                }, 500);
             }
         }).state('purchase', {
             url: '/purchase',
@@ -77,11 +72,10 @@
             controller: 'MainController',
             controllerAs: 'mainController',
             onEnter: function ($location, $anchorScroll, $timeout) {
-                $timeout(function(){
-                    $location.hash('purchase');
-                    $anchorScroll();
-                    $location.path('/updateEMV');
-                },500);
+                $location.path('purchase');
+                $timeout(function() {
+                    $anchorScroll('purchase');
+                }, 500);
             }
         }).state('service', {
             url: '/service',
@@ -89,11 +83,10 @@
             controller: 'MainController',
             controllerAs: 'mainController',
             onEnter: function ($location, $anchorScroll,$timeout) {
-                $timeout(function(){
-                    $location.hash('service');
-                    $anchorScroll();
-                    $location.path('/updateEMV');
-                },500);
+                $location.path('service');
+                $timeout(function() {
+                    $anchorScroll('service');
+                }, 500);
             }
         }).state('steps', {
             url: '/steps',
@@ -101,12 +94,10 @@
             controller: 'EMV101Controller',
             controllerAs: 'emv101Controller',
             onEnter: function ($location, $anchorScroll, $timeout) {
-                $timeout(function(){
-                    $location.hash('steps');
-                    $anchorScroll();
-                    $location.path('/emv101');
-                },500);
-
+                $location.path('steps');
+                $timeout(function() {
+                    $anchorScroll('steps');
+                }, 500);
             }
         }).state('practices', {
             url: '/practices',
@@ -114,12 +105,10 @@
             controller: 'EMV101Controller',
             controllerAs: 'emv101Controller',
             onEnter: function ($location, $anchorScroll, $timeout) {
-                $timeout(function(){
-                    $location.hash('practices');
-                    $anchorScroll();
-                    $location.path('/emv101');
-                },500);
-
+                $location.path('practices');
+                $timeout(function() {
+                    $anchorScroll('practices');
+                }, 500);
             }
         }).state('reader', {
             url: '/reader',
@@ -127,11 +116,10 @@
             controller: 'EMV101Controller',
             controllerAs: 'emv101Controller',
             onEnter: function ($location, $anchorScroll, $timeout) {
-                $timeout(function(){
-                    $location.hash('reader');
-                    $anchorScroll();
-                    $location.path('/emv101');
-                },500);
+                $location.path('reader');
+                $timeout(function() {
+                    $anchorScroll('reader');
+                }, 500);
             }
         }).state('training-materials', {
             url: '/training-materials',
@@ -139,11 +127,10 @@
             controller: 'PostSupportController',
             controllerAs: 'postSupportController',
             onEnter: function ($location, $anchorScroll, $timeout) {
-                $timeout(function(){
-                    $location.hash('training-materials');
-                    $anchorScroll();
-                    $location.path('/post-support');
-                },500);
+                $location.path('training-materials');
+                $timeout(function() {
+                    $anchorScroll('training-materials');
+                }, 500);
             }
         }).state('prevent-fraud', {
             url: '/prevent-fraud',
@@ -151,11 +138,10 @@
             controller: 'PostSupportController',
             controllerAs: 'postSupportController',
             onEnter: function ($location, $anchorScroll, $timeout) {
-                $timeout(function(){
-                    $location.hash('prevent-fraud');
-                    $anchorScroll();
-                    $location.path('/post-support');
-                },500);
+                $location.path('prevent-fraud');
+                $timeout(function() {
+                    $anchorScroll('prevent-fraud');
+                }, 500);
             }
         }).state('chip-reader', {
             url: '/chip-reader',
@@ -163,11 +149,10 @@
             controller: 'PostSupportController',
             controllerAs: 'postSupportController',
             onEnter: function ($location, $anchorScroll, $timeout) {
-                $timeout(function(){
-                    $location.hash('chip-reader');
-                    $anchorScroll();
-                    $location.path('/post-support');
-                },500);
+                $location.path('chip-reader');
+                $timeout(function() {
+                    $anchorScroll('chip-reader');
+                }, 500);
             }
         }).state('tutorial', {
             url: '/tutorial',
