@@ -186,7 +186,7 @@ a:focus{
 
 .not-sure-link{
     text-decoration: underline;
-    color:#007867;
+    color:black;
     cursor:pointer;
 }
 .not-sure-link:hover{
@@ -350,8 +350,6 @@ a:focus{
     .what-is-terminal-mobile{
         width:371px;
         height:300px;
-        padding-right: 15px;
-        padding-left: 15px;
 
     }
     .ready-to-update{
@@ -835,19 +833,17 @@ a:focus{
         font-size: 28px;
     }
     .Tutorial-lead-text {
-        margin-bottom: 5px;
+        margin-bottom: 38px;
         color: #010101;
         font-family: "AdelleSansLight", sans-serif;
         font-size: 28px;
     }
-
-    .tutorial-instruction { 
+    .Tutorial-lead-text {
         margin-bottom: 38px;
         color: #010101;
-        margin-top: 5px;
-        font-size: 12px;
+        font-family: "AdelleSansLight", sans-serif;
+        font-size: 28px;
     }
-
     .collage-left-image{
         width: 100%;
         height: 320px;
@@ -946,7 +942,7 @@ a:focus{
         position: relative;
         height: 277px;
         background-image: url(../assets/img/hero-right-bg.png);
-        top: -34px;
+        top: -16px;
         left: 15px;
         width: 345px;
     }
@@ -957,6 +953,7 @@ a:focus{
         position: relative;
     }
     .training-materials-container{
+        margin-top: 259px;
         max-width: 1002px;
         left: -11px;
         position: relative;
@@ -1026,7 +1023,11 @@ a:focus{
     }
 
 }
+<<<<<<< HEAD
 
+=======
+/* IPAD Style */
+>>>>>>> 616eadd6efdbb1b4225094d074cda9cf15ea8ead
 @media only screen and (min-width: 768px) and (max-width: 1024px){
     .links-container {
         font-size: 14pt;
@@ -1036,7 +1037,318 @@ a:focus{
         float: right;
         left: -421px;
     }
+<<<<<<< HEAD
 
+=======
+    .hero-post-support-red-block{
+        padding: 15px 0 0 20px;
+        background: #f01e14;
+        font-family: "AdelleSansRegular", sans-serif;
+        color: #ffffff;
+        position: relative;
+        top: 142px;
+        left: 105px;
+        font-size: 26px;
+        height: 64px;
+        width: 347px;
+    }
+    .hero-emv101-red-block{
+        padding: 15px 0 0 20px;
+        background: #f01e14;
+        font-family: "AdelleSansRegular", sans-serif;
+        color: #ffffff;
+        position: relative;
+        top: 163px;
+        left: 16px;
+        font-size: 26px;
+        height: 98px;
+        width: 431px;
+    }
+    .ready-to-update {
+        height: 158px;
+        position: relative;
+        left: -2px;
+        padding: 24px;
+        width: 702px;
+        color: #ffffff;
+        background: #424242;
+    }
+    .emv101-contact-container {
+        width: 702px;
+        left: -2px;
+        position: relative;
+    }
+    .ip-img{
+        width: 419px;
+    }
+    .sm-divider{
+        position: relative;
+        top: -30px;
+    }
+    .purchase-title {
+        position: relative;
+        color: #010101;
+        font-family: "AdelleSansLight", sans-serif;
+        font-size: 40px;
+        left: -43px;
+    }
+    .how-to-container {
+        margin-top: -290px;
+        left: -49px;
+        position: relative;
+    }
+    .purchase-instructions{
+        position: relative;
+        left: 66px;
+        top: 64px;
+    }
+    .update-container{
+        margin-bottom: 60px;
+    }
+    .how-to-paragraphs {
+        width: 325px;
+        font-family: "AdelleSansLight", sans-serif;
+        font-size: 14px;
+    }
+    .min-update{
+        font-family: "AdelleSansBold", sans-serif;
+        font-weight: bolder;
+    }
+    .sticky-need-help{
+        z-index: 2;
+        position: fixed;
+        right: 0;
+        top: 464px;
+    }
+    .emv-links {
+        width: 1140px;
+        margin-left: 15px;
+        max-width: 1280px;
+        background: #f11e15;
+        padding: 15px 28px;
+    }
+    .right-paragraph-header {
+        color: #f01e14;
+        font-family: "AdelleSansLight", sans-serif;
+        font-size: 26px;
+    }
+    .right-paragraph {
+        color: #535353;
+        font-family: "AdelleSansLight", sans-serif;
+        font-size: 16px;
+        width: 286px;
+    }
+    .jumbotron .btn{
+        position: relative;
+        margin-top: 3px;
+        background-color: #007867;
+        border-color: #007867;
+        color: #ffffff;
+        font-family: "AdelleSansSemiBold", sans-serif;
+        font-size: 30px;
+        border-radius: 27px;
+        padding: 12px 32px 11px 34px;
+    }
+    .right-side-styles{
+        color: #428e81;
+        text-decoration:  none !important;
+    }
+    .left-paragraph {
+        position: relative;
+        color: #535353;
+        font-family: "AdelleSansLight", sans-serif;
+        font-size: 16px;
+        width: 338px;
+        left: -23px;
+    }
+    .left-paragraph-header {
+        margin-bottom: 17px;
+        width: 314px;
+        color: #f01e14;
+        font-family: "AdelleSansLight", sans-serif;
+        font-size: 26px;
+        position: relative;
+        left: -24px;
+    }
+    .left-paragraph-container {
+        position: relative;
+        top: 58px;
+        left: 39px;
+    }
+    .get-emv-update-page-btn {
+        margin-top: 70px;
+        margin-left: 47px;
+    }
+    .right-paragraph-container {
+        position: relative;
+        top: 63px;
+        left: 17px;
+    }
+    .ft-sitemap-link {
+        position: relative;
+        left: 140px;
+        cursor: pointer;
+    }
+    .ft-terms-link {
+        position: relative;
+        left: 90px;
+        cursor: pointer;
+
+    }
+    .ft-about-link {
+        position: relative;
+        left: 46px;
+        cursor: pointer;
+    }
+    .inquire-now-btn{
+        border-radius: 18px;
+        padding: 8px 30px 4px 32px;
+        margin-top: 65px;
+        margin-left: 180px;
+    }
+    .order-now-btn{
+        border-radius: 18px;
+        padding: 8px 30px 4px 32px;
+        margin-top: 65px;
+        margin-left: 132px;
+    }
+    .get-chip-btn{
+        border-radius: 18px;
+        padding: 8px 22px 4px 20px;
+        margin-top: 65px;
+        margin-left: 70px;
+    }
+    .gl1 {
+        top: 70px;
+        position: relative;
+        left: 8px;
+        height: 127px;
+    }
+    .right-side-ip{
+        font-size: 20px;
+        margin-top: 35px;
+    }
+    .contact {
+        width: 703px;
+        position: relative;
+        margin-bottom: 35px;
+        padding: 28px 0 0 36px;
+        height: 108px;
+        background: #ebebeb;
+        left: -1px;
+    }
+    .contact-cust-service-label {
+        font-family: "AdelleSansLight", sans-serif;
+        font-size: 20px;
+        padding: 0 112px 6px 0;
+    }
+    .contact-phone {
+        position: relative;
+        padding: 0 50px 0 0;
+        font-family: "AdelleSansLight", sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        left: -99px;
+    }
+    .contact-link{
+        font-size: 16px;
+        cursor: pointer;
+        font-family: "AdelleSansLight", sans-serif;
+    }
+    .how-to-lead {
+        position: relative;
+        color: #010101;
+        font-family: "AdelleSansLight", sans-serif;
+        font-size: 40px;
+        left: -2px;
+    }
+    .top-right-grey-box{
+        position: relative;
+        background-image: url(../assets/img/transactions-collage/greybox.png);
+        width: 360px;
+        height: 321px;
+        left: -19px;
+    }
+    .right-grey-box {
+        top: -321px;
+        position: relative;
+        background-image: url(../assets/img/transactions-collage/greybox.png);
+        width: 360px;
+        height: 321px;
+        left: 357px;
+    }
+    .ft-contact-container{
+        width: 1023px;
+        left: 61px;
+        position: relative;
+    }
+    .hero-text {
+        position: relative;
+        color: #ffffff;
+        font-family: "AdelleSansRegular", sans-serif;
+        font-size: 38px !important;
+    }
+    .hero-footer-text {
+        position: relative;
+        font-size: 20px !important;
+        margin: -19px 0 0 15px;
+        color: #ffffff;
+        font-family: "AdelleSansSemiBold", sans-serif;
+    }
+    .hero-right-block-emv101 {
+        position: relative;
+        height: 274px;
+        background-image: url(../assets/img/hero-right-bg.png);
+        top: 0;
+        left: -18px;
+        width: 393px;
+    }
+    .hero-right-block{
+        position: relative;
+        height: 313px;
+        background-image: url(../assets/img/hero-right-bg.png);
+        top: 0;
+        left: -18px;
+        width: 393px;
+    }
+    .hero-right-bars{
+        left: 30px;
+        height: 134px;
+        position: relative;
+        background-image: url(../assets/img/hero-right-bars.png);
+        top: 76px;
+        width: 305px;
+    }
+    .hero-choices{
+        cursor: pointer;
+        position: relative;
+        color: #ffffff;
+        margin-bottom: 26px;
+        top: 19px;
+        font-family: "AdelleSansLight", sans-serif;
+    }
+    .top-container{
+        position: relative;
+        max-width: 948px;
+        left: 2px;
+
+    }
+    /* Tell us */
+    .tell-us{
+        position: relative;
+        left: -2px;
+        padding: 24px;
+        width: 718px;
+        color: #ffffff;
+        background: #424242;
+    }
+    .p-tells-us{
+        position: relative;
+        width: 689px;
+        margin: auto;
+        left: 22px;
+    }
+>>>>>>> 616eadd6efdbb1b4225094d074cda9cf15ea8ead
     .ready-to-order-heading{
         position: relative;
         left: 213px;
@@ -1053,6 +1365,8 @@ a:focus{
         position: relative;
         font-size: 12px;
         color: #cccccc;
+        left: -35px;
+        margin-bottom: 20px;
     }
     .survey-btn{
         border: 3px solid #b7b7b7;
@@ -1494,12 +1808,8 @@ a:focus{
     }
     .footer-container{
         max-width: 1005px;
-        width: 100%;
         position: relative;
-<<<<<<< HEAD
-=======
         left: 1px;
->>>>>>> 402f1569a9d6c0a4b493656ebd404d5a9d2db1f7
         margin-bottom: 150px;
     }
     .footer-registration{
@@ -1573,28 +1883,19 @@ a:focus{
         position: relative;
         left: 0px;
         padding: 24px;
-        width: 100%;
+        width: 1140px;
         color: #ffffff;
         background: #424242;
         margin-top: 92px;
     }
     .Tutorial-lead-text{
-        margin-left: 55px;
-        margin-bottom: 0px;
+        margin-left: -55px;
+        margin-bottom: 38px;
         color: #010101;
         font-family: "AdelleSansLight", sans-serif;
         font-size: 40px;
         margin-top: 38px;
     }
-
-    .tutorial-instruction { 
-        margin-left: 55px;
-        margin-bottom: 38px;
-        color: #010101;
-        margin-top: 5px;
-        font-size: 14px;
-    }
-
     .tutorial-survey-btn {
         border: 3px solid #b7b7b7;
         font-size: 16px;
@@ -1606,6 +1907,7 @@ a:focus{
     .tutorial-survey-btn-container {
         margin: auto;
         width: 50%;
+        left: 4px;
         position: relative;
     }
     .tutorial-image{
@@ -1702,21 +2004,12 @@ a:focus{
     }
     .Tutorial-lead-text{
         margin-left: -55px;
-        margin-bottom: 0px;
+        margin-bottom: 38px;
         color: #010101;
         font-family: "AdelleSansLight", sans-serif;
         font-size: 40px;
         margin-top: 38px;
     }
-
-    .tutorial-instruction { 
-        margin-left: -55px;
-        margin-bottom: 38px;
-        color: #010101;
-        margin-top: 5px;
-        font-size: 14px;
-    }
-
     .tutorial-tell-us{
         position: relative;
         left: 0px;
