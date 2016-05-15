@@ -209,7 +209,7 @@ a:focus{
     color: black; /* Or a color you prefer */
 }
 /*==========  Mobile First Method  ==========*/
-@media only screen and (min-width: 320px) and (max-width: 990px){
+@media only screen and (min-width: 320px) and (max-width: 767px){
     .ft-tutorial-contact-container {
         height: 100px;
     }
@@ -1023,8 +1023,8 @@ a:focus{
     }
 
 }
-
-@media only screen and (min-width: 768px) {
+/* IPAD Style */
+@media only screen and (min-width: 768px) and (max-width: 1080px){
     .hero-post-support-red-block{
         padding: 15px 0 0 20px;
         background: #f01e14;
@@ -1052,15 +1052,15 @@ a:focus{
     .ready-to-update {
         height: 158px;
         position: relative;
-        left: 62px;
+        left: -2px;
         padding: 24px;
-        width: 1026px;
+        width: 702px;
         color: #ffffff;
         background: #424242;
     }
     .emv101-contact-container {
-        width: 1026px;
-        left: 62px;
+        width: 702px;
+        left: -2px;
         position: relative;
     }
     .ip-img{
@@ -1215,11 +1215,11 @@ a:focus{
     .contact-cust-service-label {
         font-family: "AdelleSansLight", sans-serif;
         font-size: 20px;
-        padding: 0 245px 6px 0;
+        padding: 0 112px 6px 0;
     }
     .contact-phone {
         position: relative;
-        padding: 0 107px 0 0;
+        padding: 0 50px 0 0;
         font-family: "AdelleSansLight", sans-serif;
         font-size: 20px;
         font-weight: 300;
@@ -1314,7 +1314,7 @@ a:focus{
         position: relative;
         width: 689px;
         margin: auto;
-        left: 41px;
+        left: 22px;
     }
     .ready-to-order-heading{
         position: relative;
@@ -1414,7 +1414,7 @@ a:focus{
     .training-materials-container{
         margin-bottom: 65px;
         max-width: 974px;
-        left: -19px;
+        left: -63px;
         position: relative;
     }
     .merchants-paragraph{
@@ -1475,13 +1475,13 @@ a:focus{
         margin-top: -249px;
         z-index: 1;
         position: relative;
-        top: -210px;
-        left: 39px;
+        top: -223px;
+        left: 1px;
     }
     .ccr-container{
-        left: 60px;
+        left: -1px;
         position: relative;
-        max-width: 1030px;
+        max-width: 681px;
         margin-bottom: 2px;
         max-height: 561px;
     }
@@ -1508,7 +1508,7 @@ a:focus{
         font-size: 26px;
     }
     .download-btn-container{
-        width: 17%;
+        width: 34%;
         margin: 0 auto;
         position: relative;
         top: -83px;
@@ -1552,7 +1552,7 @@ a:focus{
         background-image: url("../assets/img/hero-post-support.png");
     }
     .support-right-side-ip{
-        left: 140px;
+        left: 46px;
         position: relative;
         font-size: 20px;
         margin-top: 5px;
@@ -1640,7 +1640,7 @@ a:focus{
     }
     .cc-fraud-container{
         position: relative;
-        left: -34px;
+        left: -64px;
     }
     .testimonials-heading{
         font-size: 44px;
@@ -1697,9 +1697,9 @@ a:focus{
     .ip-block-light{
         color: #017867;
         font-family: "AdelleSansLight", sans-serif;
-        font-size: 26px;
+        font-size: 18px;
         margin-bottom: 36px;
-        text-decoration:  none !important;
+        text-decoration: none !important;
     }
     .ui-tabs .ui-tabs-nav li {
         list-style: none;
@@ -1760,12 +1760,12 @@ a:focus{
         margin-bottom: 60px;
     }
     .training-materials-img{
-        width: 482px;
-        height: 413px;
+        width: 343px;
+        height: 503px;
         margin-top: -12px;
     }
     .cc-fraud-img{
-        width: 1027px;
+        width: 660px;
     }
     .training-img{
         width: 464px;
@@ -1869,8 +1869,26 @@ a:focus{
         top: 25%;
         width: 81%;
     }
+    .daysofweek{
+        font-family: "AdelleSansLight", sans-serif;
+        height: 19px;
+        position: relative;
+        text-align: center;
+        top: -84px;
+        left: 89px;
+        font-weight: bold;
+    }
 }
 @media only screen and (min-width: 1900px) {
+    .daysofweek{
+        font-family: "AdelleSansLight", sans-serif;
+        height: 19px;
+        position: relative;
+        text-align: center;
+        top: -84px;
+        left: 38px;
+        font-weight: bold;
+    }
     .arrow-container{
         left: 147px;
         position: absolute;
@@ -2934,15 +2952,6 @@ a:focus{
     left: 90px;
     cursor: pointer;
 
-}
-.daysofweek{
-    font-family: "AdelleSansLight", sans-serif;
-    height: 19px;
-    position: relative;
-    text-align: center;
-    top: -84px;
-    left: 38px;
-    font-weight: bold;
 }
 .ip-block{
     color: #000000;
