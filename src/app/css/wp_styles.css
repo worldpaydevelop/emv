@@ -544,7 +544,7 @@ a:focus{
         font-family: "AdelleSansThin", sans-serif;
     }
     .faqs-paragraph a{color: #007867!important;
-                      text-decoration: underline !important;
+        text-decoration: underline !important;
     }
     .five-steps-list{
         font-size: 14px;
@@ -1023,11 +1023,7 @@ a:focus{
     }
 
 }
-<<<<<<< HEAD
-
-=======
 /* IPAD Style */
->>>>>>> 616eadd6efdbb1b4225094d074cda9cf15ea8ead
 @media only screen and (min-width: 768px) and (max-width: 1024px){
     .links-container {
         font-size: 14pt;
@@ -1037,9 +1033,6 @@ a:focus{
         float: right;
         left: -421px;
     }
-<<<<<<< HEAD
-
-=======
     .hero-post-support-red-block{
         padding: 15px 0 0 20px;
         background: #f01e14;
@@ -1348,7 +1341,6 @@ a:focus{
         margin: auto;
         left: 22px;
     }
->>>>>>> 616eadd6efdbb1b4225094d074cda9cf15ea8ead
     .ready-to-order-heading{
         position: relative;
         left: 213px;
@@ -1623,7 +1615,7 @@ a:focus{
         font-family: "AdelleSansThin", sans-serif;
     }
     .faqs-paragraph a{color: #007867!important;
-                      text-decoration: underline !important;
+        text-decoration: underline !important;
     }
     .five-steps-list{
         font-size: 14px;
@@ -2265,7 +2257,7 @@ a:focus{
         font-family: "AdelleSansThin", sans-serif;
     }
     .faqs-paragraph a{color: #007867!important;
-                      text-decoration: underline !important;
+        text-decoration: underline !important;
     }
     .five-steps-list{
         font-size: 14px;
