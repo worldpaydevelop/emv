@@ -350,6 +350,8 @@ a:focus{
     .what-is-terminal-mobile{
         width:371px;
         height:300px;
+        padding-left: 15px;  
+        padding-right: 15px;
 
     }
     .ready-to-update{
@@ -1026,7 +1028,7 @@ a:focus{
 /* IPAD Style */
 @media only screen and (min-width: 768px) and (max-width: 1024px){
     .links-container {
-        font-size: 14pt;
+        font-size: 14px;
         font-family: "AdelleSansRegular", sans-serif;
         font-weight: 300;
         position: relative;
@@ -1114,7 +1116,7 @@ a:focus{
         top: 464px;
     }
     .emv-links {
-        width: 1140px;
+        width: 98%;
         margin-left: 15px;
         max-width: 1280px;
         background: #f11e15;
@@ -1305,12 +1307,12 @@ a:focus{
         width: 393px;
     }
     .hero-right-bars{
-        left: 30px;
+        left: 12px;
         height: 134px;
         position: relative;
         background-image: url(../assets/img/hero-right-bars.png);
         top: 76px;
-        width: 305px;
+        width: 90%;
     }
     .hero-choices{
         cursor: pointer;
@@ -1948,7 +1950,7 @@ a:focus{
         left: 61px;
     }
     .links-container {
-        font-size: 14pt;
+        font-size: 14px;
         font-family: "AdelleSansRegular", sans-serif;
         font-weight: 300;
         position: relative;
@@ -2499,7 +2501,6 @@ a:focus{
         top: 607px;
     }
     .emv-links {
-        width: 1140px;
         margin-left: 15px;
         max-width: 1280px;
         background: #f11e15;
@@ -2685,8 +2686,8 @@ a:focus{
         height: 274px;
         background-image: url(../assets/img/hero-right-bg.png);
         top: 0;
-        left: -18px;
-        width: 393px;
+        left: -4px;
+        width: 114%;
     }
     .hero-right-block{
         position: relative;
