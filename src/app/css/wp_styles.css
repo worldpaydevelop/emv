@@ -1610,6 +1610,7 @@ a:focus{
         margin-top: 5px;
     }
     .faqs-heading{
+        margin-left: -28px;
         padding: 61px 0 41px 5px;
         font-size: 44px;
         font-family: "AdelleSansLight", sans-serif;
@@ -1660,7 +1661,7 @@ a:focus{
     }
     .faqs-divider{
         height: 1px;
-        width: 702px;
+        width: 485px;
         position: relative;
         z-index: 1;
         left: -5px;
@@ -1775,8 +1776,9 @@ a:focus{
         white-space: nowrap;
     }
     .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+        font-size: 20px;
         float: left;
-        padding: 10px 40px 8px 40px;
+        padding: 10px 19px 6px 19px;
         text-decoration: none;
     }
     .contact-us-container{
