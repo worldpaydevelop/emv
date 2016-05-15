@@ -1108,6 +1108,7 @@ a:focus{
         font-weight: bolder;
     }
     .sticky-need-help{
+        z-index: 2;
         position: fixed;
         right: 0;
         top: 464px;
@@ -1702,6 +1703,15 @@ a:focus{
         position: relative;
         margin-bottom: 76px;
         left: -24px;
+    }
+    .contact-home{
+        width: 719px;
+        position: relative;
+        margin-bottom: 35px;
+        padding: 28px 0 0 36px;
+        height: 108px;
+        background: #ebebeb;
+        left: -3px;
     }
     .testimonials-divider{
         width: 679px;
