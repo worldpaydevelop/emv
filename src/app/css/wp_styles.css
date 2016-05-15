@@ -195,7 +195,7 @@ a:focus{
 
 .not-sure-link{
     text-decoration: underline;
-    color:black;
+    color:#007867;
     cursor:pointer;
 }
 .not-sure-link:hover{
@@ -356,6 +356,8 @@ a:focus{
     .what-is-terminal-mobile{
         width:371px;
         height:300px;
+        padding-right: 15px;
+        padding-left: 15px;
 
     }
     .ready-to-update{
@@ -833,17 +835,19 @@ a:focus{
         font-size: 28px;
     }
     .Tutorial-lead-text {
-        margin-bottom: 38px;
+        margin-bottom: 5px;
         color: #010101;
         font-family: "AdelleSansLight", sans-serif;
         font-size: 28px;
     }
-    .Tutorial-lead-text {
+
+    .tutorial-instruction { 
         margin-bottom: 38px;
         color: #010101;
-        font-family: "AdelleSansLight", sans-serif;
-        font-size: 28px;
+        margin-top: 5px;
+        font-size: 12px;
     }
+
     .collage-left-image{
         width: 100%;
         height: 320px;
@@ -942,7 +946,7 @@ a:focus{
         position: relative;
         height: 277px;
         background-image: url(../assets/img/hero-right-bg.png);
-        top: -16px;
+        top: -34px;
         left: 15px;
         width: 345px;
     }
@@ -953,7 +957,6 @@ a:focus{
         position: relative;
     }
     .training-materials-container{
-        margin-top: 259px;
         max-width: 1002px;
         left: -11px;
         position: relative;
@@ -1024,6 +1027,7 @@ a:focus{
 
 }
 
+/**** Tablet Styles *****/
 @media only screen and (min-width: 768px) {
     .hero-post-support-red-block{
         padding: 15px 0 0 20px;
@@ -1104,7 +1108,7 @@ a:focus{
         top: 464px;
     }
     .emv-links {
-        width: 1140px;
+        width: 100%;
         margin-left: 15px;
         max-width: 1280px;
         background: #f11e15;
@@ -1312,9 +1316,8 @@ a:focus{
     }
     .p-tells-us{
         position: relative;
-        width: 689px;
+        width: 100%;
         margin: auto;
-        left: 41px;
     }
     .ready-to-order-heading{
         position: relative;
@@ -1332,8 +1335,6 @@ a:focus{
         position: relative;
         font-size: 12px;
         color: #cccccc;
-        left: -35px;
-        margin-bottom: 20px;
     }
     .survey-btn{
         border: 3px solid #b7b7b7;
@@ -1745,8 +1746,8 @@ a:focus{
     }
     .footer-container{
         max-width: 1005px;
+        width: 100%;
         position: relative;
-        left: 63px;
         margin-bottom: 150px;
     }
     .footer-registration{
@@ -1820,19 +1821,28 @@ a:focus{
         position: relative;
         left: 0px;
         padding: 24px;
-        width: 1140px;
+        width: 100%;
         color: #ffffff;
         background: #424242;
         margin-top: 92px;
     }
     .Tutorial-lead-text{
-        margin-left: -55px;
-        margin-bottom: 38px;
+        margin-left: 55px;
+        margin-bottom: 0px;
         color: #010101;
         font-family: "AdelleSansLight", sans-serif;
         font-size: 40px;
         margin-top: 38px;
     }
+
+    .tutorial-instruction { 
+        margin-left: 55px;
+        margin-bottom: 38px;
+        color: #010101;
+        margin-top: 5px;
+        font-size: 14px;
+    }
+
     .tutorial-survey-btn {
         border: 3px solid #b7b7b7;
         font-size: 16px;
@@ -1844,7 +1854,6 @@ a:focus{
     .tutorial-survey-btn-container {
         margin: auto;
         width: 50%;
-        left: 4px;
         position: relative;
     }
     .tutorial-image{
@@ -1909,12 +1918,21 @@ a:focus{
     }
     .Tutorial-lead-text{
         margin-left: -55px;
-        margin-bottom: 38px;
+        margin-bottom: 0px;
         color: #010101;
         font-family: "AdelleSansLight", sans-serif;
         font-size: 40px;
         margin-top: 38px;
     }
+
+    .tutorial-instruction { 
+        margin-left: -55px;
+        margin-bottom: 38px;
+        color: #010101;
+        margin-top: 5px;
+        font-size: 14px;
+    }
+
     .tutorial-tell-us{
         position: relative;
         left: 0px;
