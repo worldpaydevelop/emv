@@ -1735,11 +1735,8 @@ a:focus{
     .need-help-form-container{
         left: 61px;
         position: relative;
-<<<<<<< HEAD
         top: 2px;
-=======
-        top: -28px;
->>>>>>> de082f4245d5b2ac551f40e20a4366f460443943
+        /*top: -28px;*/
     }
     .footer-container{
         max-width: 1005px;
@@ -2003,11 +2000,8 @@ a:focus{
     .need-help-form-container{
         left: 61px;
         position: relative;
-<<<<<<< HEAD
         top: 2px;
-=======
-        top: -28px;
->>>>>>> de082f4245d5b2ac551f40e20a4366f460443943
+        /*top: -28px;*/
     }
     .contact-us-heading{
         font-family: "AdelleSansLight", sans-serif;
@@ -2916,11 +2910,8 @@ a:focus{
 }
 
 .trademark-container {
-<<<<<<< HEAD
     font-family: "AdelleSansRegular", sans-serif;
-=======
-    font-family: "AdelleSansLight", sans-serif;
->>>>>>> de082f4245d5b2ac551f40e20a4366f460443943
+    /*font-family: "AdelleSansLight", sans-serif;*/
     font-size: 12px;
     color: #333;
     font-weight: 100;
