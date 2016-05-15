@@ -344,11 +344,14 @@ a:focus{
         font-family: "AdelleSansLight", sans-serif;
     }
     .what-is-paragraph{
-        left: -185px;
-        margin-bottom: 391px;
+        margin-bottom: 69px;
+        padding: 15px 11px 0 14px;
+        height: 255px;
+        left: -190px;
         position: relative;
-        top: 336px;
+        top: 304px;
         width: 350px;
+        background: #f7f7f7;
     }
     .what-is-terminal-mobile{
         width:371px;
@@ -939,7 +942,7 @@ a:focus{
         position: relative;
         height: 277px;
         background-image: url(../assets/img/hero-right-bg.png);
-        top: 331px;
+        top: -16px;
         left: 15px;
         width: 345px;
     }
@@ -987,7 +990,7 @@ a:focus{
         position: relative;
         color: #ffffff;
         margin-bottom: 26px;
-        top: -347px;
+        top: 19px;
         font-family: "AdelleSansLight", sans-serif;
     }
     .support-right-side-ip{
