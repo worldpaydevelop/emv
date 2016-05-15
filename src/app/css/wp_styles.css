@@ -451,8 +451,10 @@ a:focus{
         border-radius: 18px;
         left: -6px;
         top: -18px;
+        background: #007867;
         color: #fff !important;
     }
+
     .download-btn-container{
         left: 81px;
         margin-top: -2px;
