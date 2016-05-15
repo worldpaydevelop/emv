@@ -38,7 +38,7 @@
             controller: 'MainController',
             controllerAs: 'mainController',
             onEnter: function ($location, $anchorScroll, $state, $timeout) {
-                $location.path('updateEMV');
+                $location.path('getUpdate');
                 $timeout(function() {
                     $anchorScroll('getUpdate');
                 }, 500);
