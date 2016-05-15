@@ -153,15 +153,6 @@ a:focus{
     background: #fff;
 }
 
-.links-container {
-    font-size: 14pt;
-    font-family: "AdelleSansRegular", sans-serif;
-    font-weight: 300;
-    position: relative;
-    float: right;
-    left: -24px;
-}
-
 .top-links-color {
     position: relative;
     color: black;
@@ -1033,7 +1024,15 @@ a:focus{
 
 }
 /* IPAD Style */
-@media only screen and (min-width: 768px) and (max-width: 1080px){
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .links-container {
+        font-size: 14pt;
+        font-family: "AdelleSansRegular", sans-serif;
+        font-weight: 300;
+        position: relative;
+        float: right;
+        left: -421px;
+    }
     .hero-post-support-red-block{
         padding: 15px 0 0 20px;
         background: #f01e14;
@@ -1910,6 +1909,14 @@ a:focus{
     }
 }
 @media only screen and (min-width: 1900px) {
+    .links-container {
+        font-size: 14pt;
+        font-family: "AdelleSansRegular", sans-serif;
+        font-weight: 300;
+        position: relative;
+        float: right;
+        left: -24px;
+    }
     .social-btns{
         margin-left: 3px;
     }
