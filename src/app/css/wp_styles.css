@@ -247,7 +247,7 @@ a:focus{
         position: relative;
     }
     .thankyou-lines {
-        color: red;
+        color: black;
         font-size: 22px;
         left: 1px;
         position: relative;
@@ -1800,7 +1800,7 @@ a:focus{
         top: 14px;
     }
     .thankyou-lines{
-        color: red;
+        color: black;
         font-size: 22px;
         left: 63px;
         position: relative;
@@ -1929,7 +1929,7 @@ a:focus{
         position: relative;
     }
     .thankyou-lines{
-        color: red;
+        color: black;
         font-size: 22px;
         left: 63px;
         position: relative;
