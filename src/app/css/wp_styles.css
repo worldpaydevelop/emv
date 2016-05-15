@@ -926,7 +926,7 @@ a:focus{
         position: relative;
         height: 331px;
         background-image: url("../assets/img/mobile-emv101-hero.png");
-        background-size: 345px 331px;
+        background-size: 100% 331px;
     }
     .jumbotron-post-support{
         margin-bottom: 34px;
