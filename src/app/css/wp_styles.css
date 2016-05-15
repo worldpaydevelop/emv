@@ -153,15 +153,6 @@ a:focus{
     background: #fff;
 }
 
-.links-container {
-    font-size: 14pt;
-    font-family: "AdelleSansRegular", sans-serif;
-    font-weight: 300;
-    position: relative;
-    float: right;
-    left: -24px;
-}
-
 .top-links-color {
     position: relative;
     color: black;
@@ -209,7 +200,10 @@ a:focus{
     color: black; /* Or a color you prefer */
 }
 /*==========  Mobile First Method  ==========*/
-@media only screen and (min-width: 320px) and (max-width: 990px){
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    .social-btns{
+        margin-left: 3px;
+    }
     .ft-tutorial-contact-container {
         height: 100px;
     }
@@ -612,6 +606,12 @@ a:focus{
         position: relative;
     }
     .right-grey-box {
+        position: relative;
+        top: -8px;
+        background-image: url(../assets/img/transactions-collage/cc-grey-mobile.png);
+        height: 167px;
+    }
+    .top-right-grey-box {
         position: relative;
         top: -8px;
         background-image: url(../assets/img/transactions-collage/cc-grey-mobile.png);
@@ -1026,9 +1026,22 @@ a:focus{
     }
 
 }
+<<<<<<< HEAD
 
 /**** Tablet Styles *****/
 @media only screen and (min-width: 768px) {
+=======
+/* IPAD Style */
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .links-container {
+        font-size: 14pt;
+        font-family: "AdelleSansRegular", sans-serif;
+        font-weight: 300;
+        position: relative;
+        float: right;
+        left: -421px;
+    }
+>>>>>>> 402f1569a9d6c0a4b493656ebd404d5a9d2db1f7
     .hero-post-support-red-block{
         padding: 15px 0 0 20px;
         background: #f01e14;
@@ -1047,8 +1060,8 @@ a:focus{
         font-family: "AdelleSansRegular", sans-serif;
         color: #ffffff;
         position: relative;
-        top: 114px;
-        left: 123px;
+        top: 163px;
+        left: 16px;
         font-size: 26px;
         height: 98px;
         width: 431px;
@@ -1056,15 +1069,15 @@ a:focus{
     .ready-to-update {
         height: 158px;
         position: relative;
-        left: 62px;
+        left: -2px;
         padding: 24px;
-        width: 1026px;
+        width: 702px;
         color: #ffffff;
         background: #424242;
     }
     .emv101-contact-container {
-        width: 1026px;
-        left: 62px;
+        width: 702px;
+        left: -2px;
         position: relative;
     }
     .ip-img{
@@ -1082,7 +1095,8 @@ a:focus{
         left: -43px;
     }
     .how-to-container {
-        left: -26px;
+        margin-top: -290px;
+        left: -49px;
         position: relative;
     }
     .purchase-instructions{
@@ -1123,11 +1137,11 @@ a:focus{
         color: #535353;
         font-family: "AdelleSansLight", sans-serif;
         font-size: 16px;
-        width: 374px;
+        width: 286px;
     }
     .jumbotron .btn{
         position: relative;
-        margin-top: 24px;
+        margin-top: 3px;
         background-color: #007867;
         border-color: #007867;
         color: #ffffff;
@@ -1141,17 +1155,21 @@ a:focus{
         text-decoration:  none !important;
     }
     .left-paragraph {
+        position: relative;
         color: #535353;
         font-family: "AdelleSansLight", sans-serif;
         font-size: 16px;
-        width: 450px;
+        width: 338px;
+        left: -23px;
     }
     .left-paragraph-header {
         margin-bottom: 17px;
-        width: 440px;
+        width: 314px;
         color: #f01e14;
         font-family: "AdelleSansLight", sans-serif;
         font-size: 26px;
+        position: relative;
+        left: -24px;
     }
     .left-paragraph-container {
         position: relative;
@@ -1165,7 +1183,7 @@ a:focus{
     .right-paragraph-container {
         position: relative;
         top: 63px;
-        left: 49px;
+        left: 17px;
     }
     .ft-sitemap-link {
         position: relative;
@@ -1202,28 +1220,32 @@ a:focus{
         margin-left: 70px;
     }
     .gl1 {
-        top: 50px;
+        top: 70px;
         position: relative;
-        left: 42px;
+        left: 8px;
+        height: 127px;
     }
     .right-side-ip{
         font-size: 20px;
         margin-top: 35px;
     }
     .contact {
+        width: 703px;
+        position: relative;
         margin-bottom: 35px;
         padding: 28px 0 0 36px;
         height: 108px;
         background: #ebebeb;
+        left: -1px;
     }
     .contact-cust-service-label {
         font-family: "AdelleSansLight", sans-serif;
         font-size: 20px;
-        padding: 0 245px 6px 0;
+        padding: 0 112px 6px 0;
     }
     .contact-phone {
         position: relative;
-        padding: 0 107px 0 0;
+        padding: 0 50px 0 0;
         font-family: "AdelleSansLight", sans-serif;
         font-size: 20px;
         font-weight: 300;
@@ -1241,13 +1263,20 @@ a:focus{
         font-size: 40px;
         left: -2px;
     }
-    .right-grey-box {
-        top: 0;
+    .top-right-grey-box{
         position: relative;
         background-image: url(../assets/img/transactions-collage/greybox.png);
-        width: 488px;
+        width: 360px;
         height: 321px;
-        left: 45px;
+        left: -19px;
+    }
+    .right-grey-box {
+        top: -321px;
+        position: relative;
+        background-image: url(../assets/img/transactions-collage/greybox.png);
+        width: 360px;
+        height: 321px;
+        left: 357px;
     }
     .ft-contact-container{
         width: 1023px;
@@ -1302,15 +1331,15 @@ a:focus{
     .top-container{
         position: relative;
         max-width: 948px;
-        left: 60px;
+        left: 2px;
 
     }
     /* Tell us */
     .tell-us{
         position: relative;
-        left: 61px;
+        left: -2px;
         padding: 24px;
-        width: 1023px;
+        width: 718px;
         color: #ffffff;
         background: #424242;
     }
@@ -1318,6 +1347,10 @@ a:focus{
         position: relative;
         width: 100%;
         margin: auto;
+<<<<<<< HEAD
+=======
+        left: 22px;
+>>>>>>> 402f1569a9d6c0a4b493656ebd404d5a9d2db1f7
     }
     .ready-to-order-heading{
         position: relative;
@@ -1360,7 +1393,7 @@ a:focus{
         height: 267px;
     }
     .lead-text {
-        margin-left: -39px;
+        margin-left: 1px;
         margin-bottom: 38px;
         color: #010101;
         font-family: "AdelleSansLight", sans-serif;
@@ -1368,30 +1401,30 @@ a:focus{
         margin-top: 38px;
     }
     .collage-left-image{
-        width: 550px;
+        width: 391px;
         height: 320px;
     }
     .fl-image{
         position: relative;
-        width: 548px;
+        width: 358px;
         height: 320px;
-        left: -14px;
+        left: -17px;
     }
     .collage-touchpad{
         position: relative;
-        width: 550px;
+        width: 397px;
         height: 320px;
     }
     .left-grey-box {
         z-index: 6;
         position: relative;
         background-image: url(../assets/img/transactions-collage/left-grey-box.png);
-        width: 534px;
+        width: 358px;
         height: 321px;
     }
     .ip-connection-update{
         background: #f7f7f7 !important;
-        width: 538px;
+        width: 370px;
         height: 267px;
         margin-bottom: 76px;
         margin-top: 31px;
@@ -1399,7 +1432,7 @@ a:focus{
     .ip-update-instructions {
         position: relative;
         width: 208px;
-        left: 50px;
+        left: 17px;
         top: 86px;
     }
     .contact-footer{
@@ -1409,20 +1442,25 @@ a:focus{
     }
     .merchants-container{
         max-width: 1135px;
-        left: -33px;
+        left: -61px;
         position: relative;
+    }
+    .emv101-bullets-left-img{
+        height: 677px;
+        width: 371px;
     }
     .training-materials-container{
         margin-bottom: 65px;
         max-width: 974px;
-        left: -19px;
+        left: -63px;
         position: relative;
     }
     .merchants-paragraph{
-        margin-bottom: 24px;
+        margin-bottom: 28px;
         font-family: "AdelleSansLight", sans-serif;
         font-size: 24px;
-        color:#333333;
+        color: #333333;
+        margin-top: -64px;
     }
     .merchants-header{
         font-size: 44px;
@@ -1443,27 +1481,30 @@ a:focus{
         left: -21px;
     }
     .best-practice-container{
-        margin-left: 63px;
+        background: #f7f7f7;
+        margin-left: 0px;
         margin-bottom: 80px;
         margin-top: 54px;
         height: 470px;
-        background-image: url("../assets/img/best-practice-bg.png");
-        max-width: 1028px;
+        max-width: 725px;
     }
     .best-practice-header{
+        margin-left: -38px;
         margin-top: 53px;
         font-size: 44px;
         font-family: "AdelleSansLight", sans-serif;
     }
     .best-practice-header-sm{
+        margin-left: -34px;
         font-size: 16px;
-        font-family:"AdelleSansLight", sans-serif;
+        font-family: "AdelleSansLight", sans-serif;
+        width: 639px;
     }
     .red-circle-container{
-        max-width: 985px;
+        max-width: 670px;
         top: 24px;
         position: relative;
-        left: 75px;
+        left: 16px;
     }
     .red-circle-paragraph{
         position: relative;
@@ -1476,13 +1517,13 @@ a:focus{
         margin-top: -249px;
         z-index: 1;
         position: relative;
-        top: -210px;
-        left: 39px;
+        top: -223px;
+        left: 1px;
     }
     .ccr-container{
-        left: 60px;
+        left: -1px;
         position: relative;
-        max-width: 1030px;
+        max-width: 681px;
         margin-bottom: 2px;
         max-height: 561px;
     }
@@ -1499,17 +1540,18 @@ a:focus{
         font-family: "AdelleSansLight", sans-serif;
     }
     .ccr-paragraph-container{
-        top: 20px;
+        top: 51px;
         position: relative;
         max-width: 246px;
         font-family: "AdelleSansRegular", sans-serif;
     }
     .ccr-paragraph-header{
+        margin-top: 22px;
         margin-bottom: 10px;
         font-size: 26px;
     }
     .download-btn-container{
-        width: 17%;
+        width: 34%;
         margin: 0 auto;
         position: relative;
         top: -83px;
@@ -1522,17 +1564,25 @@ a:focus{
         border-radius: 18px;
         color: #fff !important;
     }
+    .emv101-top-left-img{
+        width: 397px;
+        height: 317px;
+    }
     .what-is-emv-container{
         margin-bottom: -92px;
         max-width: 940px;
-        margin-left: 76px;
+        margin-left: 15px;
     }
     .what-is-paragraph{
         position: relative;
-        top: -265px;
-        left: 68px;
-        max-width: 400px;
+        top: -297px;
+        left: 32px;
+        max-width: 298px;
         font-size: 16px;
+    }
+    .emv101-right-grey-box{
+        width: 339px;
+        height: 320px;
     }
     .what-is-emv-header{
         position: relative;
@@ -1553,7 +1603,7 @@ a:focus{
         background-image: url("../assets/img/hero-post-support.png");
     }
     .support-right-side-ip{
-        left: 140px;
+        left: 46px;
         position: relative;
         font-size: 20px;
         margin-top: 5px;
@@ -1641,7 +1691,7 @@ a:focus{
     }
     .cc-fraud-container{
         position: relative;
-        left: -34px;
+        left: -64px;
     }
     .testimonials-heading{
         font-size: 44px;
@@ -1652,17 +1702,19 @@ a:focus{
     .testimonials-box{
         line-height: 2;
         background-image: url("../assets/img/testimonials-box.png");
-        width: 1026px;
+        width: 720px;
         height: 722px;
-        left: 61px;
+        left: 25px;
         position: relative;
-        padding: 38px 0 0 39px;
+        padding: 33px 0 0 24px;
     }
     .testimonials-container{
+        position: relative;
         margin-bottom: 76px;
+        left: -24px;
     }
     .testimonials-divider{
-        width: 945px;
+        width: 679px;
         position: relative;
         z-index: 1;
         left: -5px;
@@ -1674,8 +1726,8 @@ a:focus{
         left: -47px;
     }
     .testimony{
-        width: 900px;
-        font-size: 26px;
+        width: 679px;
+        font-size: 20px;
         font-family: "AdelleSansLightItalic", sans-serif;
     }
     .quotation-icon{
@@ -1698,9 +1750,9 @@ a:focus{
     .ip-block-light{
         color: #017867;
         font-family: "AdelleSansLight", sans-serif;
-        font-size: 26px;
+        font-size: 18px;
         margin-bottom: 36px;
-        text-decoration:  none !important;
+        text-decoration: none !important;
     }
     .ui-tabs .ui-tabs-nav li {
         list-style: none;
@@ -1748,6 +1800,10 @@ a:focus{
         max-width: 1005px;
         width: 100%;
         position: relative;
+<<<<<<< HEAD
+=======
+        left: 1px;
+>>>>>>> 402f1569a9d6c0a4b493656ebd404d5a9d2db1f7
         margin-bottom: 150px;
     }
     .footer-registration{
@@ -1761,12 +1817,12 @@ a:focus{
         margin-bottom: 60px;
     }
     .training-materials-img{
-        width: 482px;
-        height: 413px;
+        width: 343px;
+        height: 503px;
         margin-top: -12px;
     }
     .cc-fraud-img{
-        width: 1027px;
+        width: 660px;
     }
     .training-img{
         width: 464px;
@@ -1878,8 +1934,40 @@ a:focus{
         top: 25%;
         width: 81%;
     }
+    .daysofweek{
+        font-family: "AdelleSansLight", sans-serif;
+        height: 19px;
+        position: relative;
+        text-align: center;
+        top: -84px;
+        left: -135px;
+        font-weight: bold;
+    }
+    .social-btns{
+        margin-left: -112px;
+    }
 }
 @media only screen and (min-width: 1900px) {
+    .links-container {
+        font-size: 14pt;
+        font-family: "AdelleSansRegular", sans-serif;
+        font-weight: 300;
+        position: relative;
+        float: right;
+        left: -24px;
+    }
+    .social-btns{
+        margin-left: 3px;
+    }
+    .daysofweek{
+        font-family: "AdelleSansLight", sans-serif;
+        height: 19px;
+        position: relative;
+        text-align: center;
+        top: -84px;
+        left: 38px;
+        font-weight: bold;
+    }
     .arrow-container{
         left: 147px;
         position: absolute;
@@ -2558,6 +2646,14 @@ a:focus{
         height: 321px;
         left: 45px;
     }
+    .top-right-grey-box {
+        top: 0;
+        position: relative;
+        background-image: url(../assets/img/transactions-collage/greybox.png);
+        width: 488px;
+        height: 321px;
+        left: 45px;
+    }
     .ready-to-update {
         height: 158px;
         position: relative;
@@ -2952,15 +3048,6 @@ a:focus{
     left: 90px;
     cursor: pointer;
 
-}
-.daysofweek{
-    font-family: "AdelleSansLight", sans-serif;
-    height: 19px;
-    position: relative;
-    text-align: center;
-    top: -84px;
-    left: 38px;
-    font-weight: bold;
 }
 .ip-block{
     color: #000000;
