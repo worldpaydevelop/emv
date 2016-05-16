@@ -102,7 +102,7 @@
             {
                 image: "src/app/assets/ipFrames/Step_11_0.jpg",
                 audio: "src/app/assets/ipFrames/11_0.mp3",
-                next: "timeout:8500"
+                next: "timeout:9500"
             },
             {
                 image: "src/app/assets/ipFrames/Step_11_1.jpg",
