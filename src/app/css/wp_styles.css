@@ -186,7 +186,7 @@ a:focus{
 
 .not-sure-link{
     text-decoration: underline;
-    color:black;
+    color:#007867;
     cursor:pointer;
 }
 .not-sure-link:hover{
@@ -835,16 +835,18 @@ a:focus{
         font-size: 28px;
     }
     .Tutorial-lead-text {
-        margin-bottom: 38px;
+        margin-bottom: 5px;
         color: #010101;
         font-family: "AdelleSansLight", sans-serif;
         font-size: 28px;
     }
-    .Tutorial-lead-text {
+
+    .tutorial-instruction {  
         margin-bottom: 38px;
         color: #010101;
-        font-family: "AdelleSansLight", sans-serif;
-        font-size: 28px;
+        margin-top: 10px;
+        font-size: 12px;
+
     }
     .collage-left-image{
         width: 100%;
@@ -944,7 +946,7 @@ a:focus{
         position: relative;
         height: 277px;
         background-image: url(../assets/img/hero-right-bg.png);
-        top: -16px;
+        top: -34px;
         left: 15px;
         width: 345px;
     }
@@ -955,7 +957,6 @@ a:focus{
         position: relative;
     }
     .training-materials-container{
-        margin-top: 259px;
         max-width: 1002px;
         left: -11px;
         position: relative;
@@ -1033,7 +1034,6 @@ a:focus{
         font-weight: 300;
         position: relative;
         float: right;
-        left: -421px;
     }
     .hero-post-support-red-block{
         padding: 15px 0 0 20px;
@@ -1295,8 +1295,8 @@ a:focus{
         height: 274px;
         background-image: url(../assets/img/hero-right-bg.png);
         top: 0;
-        left: -18px;
-        width: 393px;
+        left: -27px;
+        width: 277px;
     }
     .hero-right-block{
         position: relative;
@@ -1616,7 +1616,7 @@ a:focus{
         font-size: 14px;
         font-family: "AdelleSansThin", sans-serif;
     }
-    .faqs-paragraph a{color: #007867!important;
+    .faqs-paragraph a{color: #fff !important;
         text-decoration: underline !important;
     }
     .five-steps-list{
@@ -1677,7 +1677,7 @@ a:focus{
         font-size: 16px;
         padding: 11px 36px 7px 37px;
         border-radius: 18px;
-        color:#017867;
+        color:#fff !important;
         border-color:#017867;
     }
     .cc-present-transactions{
@@ -1884,12 +1884,20 @@ a:focus{
     }
     .Tutorial-lead-text{
         margin-left: -55px;
-        margin-bottom: 38px;
+        margin-bottom: 5px;
         color: #010101;
         font-family: "AdelleSansLight", sans-serif;
         font-size: 40px;
         margin-top: 38px;
     }
+    .tutorial-instruction {  
+        margin-left: -55px;
+        margin-bottom: 38px;
+        color: #010101;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
     .tutorial-survey-btn {
         border: 3px solid #b7b7b7;
         font-size: 16px;
@@ -2007,12 +2015,20 @@ a:focus{
     }
     .Tutorial-lead-text{
         margin-left: -55px;
-        margin-bottom: 38px;
+        margin-bottom: 5px;
         color: #010101;
         font-family: "AdelleSansLight", sans-serif;
         font-size: 40px;
         margin-top: 38px;
     }
+    .tutorial-instruction {  
+        margin-left: -55px;
+        margin-bottom: 38px;
+        color: #010101;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
     .tutorial-tell-us{
         position: relative;
         left: 0px;
@@ -2214,8 +2230,8 @@ a:focus{
         font-size: 16px;
         padding: 11px 36px 7px 37px;
         border-radius: 18px;
-        color:#017867;
-        border-color:#017867;
+        color:#fff !important;
+        border-color:#007867 ;
     }
     .still-cant-find-container{
         margin-left: -34px;
@@ -2505,6 +2521,7 @@ a:focus{
         max-width: 1280px;
         background: #f11e15;
         padding: 15px 28px;
+        width: 1140px;
     }
     .right-paragraph-header {
         color: #f01e14;
@@ -2686,8 +2703,8 @@ a:focus{
         height: 274px;
         background-image: url(../assets/img/hero-right-bg.png);
         top: 0;
-        left: -4px;
-        width: 114%;
+        left: -18px;
+        width: 393px;
     }
     .hero-right-block{
         position: relative;
