@@ -158,7 +158,10 @@
             url: '/tutorial',
             templateUrl: 'src/app/js/components/Tutorial/templates/tutorial.html',
             controller: 'TutorialController',
-            controllerAs: 'tutorialController'
+            controllerAs: 'tutorialController',
+            onEnter: function(){
+                $("html, body").animate({ scrollTop: 0 }, 200);
+            }
         }).state('contact', {
             url: '/contact',
             templateUrl: 'src/app/js/components/Contact/templates/contact.html',
