@@ -772,8 +772,8 @@ a:focus{
         background: #ebebeb;
     }
     .contact-cust-service-label {
-        padding: 0 17px 0 0;
-        font-family: "AdelleSansLight", sans-serif;
+/*        padding: 0 17px 0 0;
+*/        font-family: "AdelleSansLight", sans-serif;
         font-size: 12px;
     }
     .contact-phone {
@@ -1235,8 +1235,8 @@ a:focus{
     .contact-cust-service-label {
         font-family: "AdelleSansLight", sans-serif;
         font-size: 20px;
-        padding: 0 112px 6px 0;
-    }
+/*        padding: 0 112px 6px 0;
+*/    }
     .contact-phone {
         position: relative;
         padding: 0 50px 0 0;
@@ -2624,7 +2624,6 @@ a:focus{
     .contact-cust-service-label {
         font-family: "AdelleSansLight", sans-serif;
         font-size: 20px;
-        padding: 0 245px 6px 0;
     }
     .contact-phone {
         position: relative;
