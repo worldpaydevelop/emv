@@ -9,33 +9,29 @@
             <div class="tutorial-instruction">Please use the arrows to navigate through the tutorial</div>
         </div>
     </div>
-    <div id="EMV" >
-        <div ng-click="frameClick($event)" style="display:block; position:relative; height: 100%">
-
-            <div id="pusher"></div>
-
-            <script>
-                var ms = function(e){
-                    var h = $('#frame').height();
-                    $('#pusher').css('height',h);
-                    $('.arrow').css('height',(h/1080.0)*313*1.4);
-                };
-                $(function(){window.setTimeout(ms,100);$(window).resize(ms);});
-            </script>
-
-            <div style="position: absolute; z-index: 1; left: 0; top: 0;">
-                <img class="tutorial-image" id="frame" src="src/app/assets/ipFrames/Cover_1.jpg" width="100%"></img>
-                <div class="arrow-container">
-                    <img class="left-arrow" ng-hide="fi == 0" ng-click="goBack($event)" src="src/app/assets/ipFrames/arrows/t-left-arrow.png">
-                    <img class="right-arrow" ng-click="goForward($event)" style="float: right;" src="src/app/assets/ipFrames/arrows/t-right-arrow.png">
+    <div id="EMV" class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div ng-click="frameClick($event)" style="display:block; position:relative; height: 100%">
+                <script>
+                    var ms = function(e){
+                        var h = $('#frame').height();
+                        $('#pusher').css('height',h);
+                        $('.arrow').css('height',(h/1080.0)*313*1.4);
+                    };
+                    $(function(){window.setTimeout(ms,100);$(window).resize(ms);});
+                </script>
+                <div>
+                    <img class="tutorial-image" id="frame" src="src/app/assets/ipFrames/Cover_1.jpg" width="100%">
+                    <div class="arrow-container">
+                        <img class="left-arrow" ng-hide="fi == 0" ng-click="goBack($event)" src="src/app/assets/ipFrames/arrows/t-left-arrow.png">
+                        <img class="right-arrow" ng-click="goForward($event)" style="float: right;" src="src/app/assets/ipFrames/arrows/t-right-arrow.png">
+                    </div>
                 </div>
             </div>
-
+            <div id="myCanvas" width="578" height="400" style="margin-bottom: 20px;"></div>
         </div>
-
     </div>
 
-    <div id="myCanvas" width="578" height="400"></div>
     <!-- Need help sticky-->
     <div data-ng-include="'src/app/js/components/Help/templates/need-help-sticky.html'"></div>
     <!-- include tell us section -->

@@ -201,6 +201,15 @@ a:focus{
 }
 /*==========  Mobile First Method  ==========*/
 @media only screen and (min-width: 320px) and (max-width: 767px){
+    .daysofweek{
+        font-family: "AdelleSansLight", sans-serif;
+        height: 19px;
+        position: relative;
+        text-align: center;
+        top: -84px;
+        left: -5px;
+        font-weight: bold;
+    }
     .social-btns{
         margin-left: 3px;
     }
@@ -587,7 +596,7 @@ a:focus{
         padding: 24px;
         color: #ffffff;
         background: #424242;
-        margin-top: 92px;
+        margin-top: 29px;
     }
     .tell-us-heading {
         position: relative;
@@ -772,9 +781,9 @@ a:focus{
         background: #ebebeb;
     }
     .contact-cust-service-label {
-        padding: 0 17px 0 0;
+        padding: 0 7px 0 0;
         font-family: "AdelleSansLight", sans-serif;
-        font-size: 12px;
+        font-size: 10px;
     }
     .contact-phone {
         font-family: "AdelleSansLight", sans-serif;
@@ -1224,7 +1233,7 @@ a:focus{
         margin-top: 35px;
     }
     .contact {
-        width: 703px;
+        width: 722px;
         position: relative;
         margin-bottom: 35px;
         padding: 28px 0 0 36px;
@@ -1877,21 +1886,21 @@ a:focus{
         position: relative;
         left: 0px;
         padding: 24px;
-        width: 1140px;
+        width: 720px;
         color: #ffffff;
         background: #424242;
         margin-top: 92px;
     }
     .Tutorial-lead-text{
-        margin-left: -55px;
+        margin-left: 36px;
         margin-bottom: 5px;
         color: #010101;
         font-family: "AdelleSansLight", sans-serif;
         font-size: 40px;
         margin-top: 38px;
     }
-    .tutorial-instruction {  
-        margin-left: -55px;
+    .tutorial-instruction {
+        margin-left: 37px;
         margin-bottom: 38px;
         color: #010101;
         margin-top: 10px;
@@ -1909,24 +1918,24 @@ a:focus{
     .tutorial-survey-btn-container {
         margin: auto;
         width: 50%;
-        left: 4px;
+        left: 48px;
         position: relative;
     }
     .tutorial-image{
         position: relative;
-        width: 770px;
-        left: 145px;
+        width: 652px;
+        left: 38px;
     }
     .right-arrow{
         height: 77px;
         position: relative;
-        left: 145px;
+        left: -39px;
         top: -51px;
     }
     .left-arrow{
         top: -51px;
         position: relative;
-        left: -1px;
+        left: -107px;
     }
     .arrow-container{
         left: 147px;
@@ -1944,7 +1953,7 @@ a:focus{
         font-weight: bold;
     }
     .social-btns{
-        margin-left: -112px;
+        margin-left: -150px;
     }
 }
 @media only screen and (min-width: 1024px) {
@@ -1991,7 +2000,7 @@ a:focus{
     .right-arrow{
         height: 77px;
         position: relative;
-        left: 145px;
+        left: -155px;
         top: -51px;
     }
     .tutorial-image{
