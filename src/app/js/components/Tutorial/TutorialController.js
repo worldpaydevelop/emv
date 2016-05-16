@@ -45,8 +45,8 @@
                 next: "click"
             },
             {
-                image: "src/app/assets/ipFrames/slide_8.jpg",
-                audio: "src/app/assets/ipFrames/4_0.mp3",
+                image: "src/app/assets/ipFrames/Step_4_0.jpg",
+                audio: "src/app/assets/ipFrames/Step_4.mp3",
                 next: "click"
             },
             {
