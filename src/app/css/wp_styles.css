@@ -691,6 +691,7 @@ a:focus{
         width: 374px;
         font-family: "AdelleSansLight", sans-serif;
         font-size: 20px;
+        color: #f01e14;
     }
     .left-paragraph-container {
         position: relative;
@@ -1077,7 +1078,6 @@ a:focus{
         position: relative;
         left: -2px;
         padding: 24px;
-        width: 702px;
         color: #ffffff;
         background: #424242;
     }
@@ -1101,7 +1101,6 @@ a:focus{
         left: -43px;
     }
     .how-to-container {
-        margin-top: -290px;
         left: -49px;
         position: relative;
     }
@@ -1275,12 +1274,12 @@ a:focus{
         left: -19px;
     }
     .right-grey-box {
-        top: -321px;
+        top: -2px;
         position: relative;
         background-image: url(../assets/img/transactions-collage/greybox.png);
-        width: 360px;
+        /*width: 360px;*/
         height: 321px;
-        left: 357px;
+        /*left: 357px;*/
     }
     .ft-contact-container{
         width: 1023px;
@@ -1313,8 +1312,8 @@ a:focus{
         height: 313px;
         background-image: url(../assets/img/hero-right-bg.png);
         top: 0;
-        left: -18px;
-        width: 393px;
+        left: -38px;
+        width: 288px;
     }
     .hero-right-bars{
         left: 12px;
@@ -1412,18 +1411,21 @@ a:focus{
         width: 358px;
         height: 320px;
         left: -17px;
+        top: -1px;
     }
     .collage-touchpad{
         position: relative;
         width: 397px;
         height: 320px;
+        top: -2px;
     }
     .left-grey-box {
         z-index: 6;
         position: relative;
         background-image: url(../assets/img/transactions-collage/left-grey-box.png);
-        width: 358px;
+        width: 364px;
         height: 321px;
+        top:-1px;
     }
     .ip-connection-update{
         background: #f7f7f7 !important;
