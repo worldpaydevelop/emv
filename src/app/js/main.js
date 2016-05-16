@@ -214,7 +214,7 @@
             url: 'http://www.worldpay.com/us/us-terms-conditions',
             external: true
         }).state('linkedin', {
-            url: 'https://www.linkedin.com/company/worldpay',
+            url: 'https://www.linkedin.com/company/worldpay-us',
             external: true
         }).state('google', {
             url: 'http://plus.google.com/+worldpayus',
