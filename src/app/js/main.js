@@ -158,7 +158,10 @@
             url: '/tutorial',
             templateUrl: 'src/app/js/components/Tutorial/templates/tutorial.html',
             controller: 'TutorialController',
-            controllerAs: 'tutorialController'
+            controllerAs: 'tutorialController',
+            onEnter: function(){
+                $("html, body").animate({ scrollTop: 0 }, 200);
+            }
         }).state('contact', {
             url: '/contact',
             templateUrl: 'src/app/js/components/Contact/templates/contact.html',
@@ -193,7 +196,10 @@
             url: '/faqs',
             templateUrl: 'src/app/js/components/Faqs/templates/faqs.html',
             controller: 'FaqsController',
-            controllerAs: 'faqsController'
+            controllerAs: 'faqsController',
+            onEnter: function(){
+                $("html, body").animate({ scrollTop: 0 }, 200);
+            }
         }).state('help_thankyou', {
             url: '/help_thankyou',
             templateUrl: 'src/app/js/components/Thankyou/templates/help_thankyou.html',
