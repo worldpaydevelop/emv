@@ -1247,12 +1247,14 @@ a:focus{
     .contact-cust-service-label {
         font-family: "AdelleSansLight", sans-serif;
         font-size: 20px;
+        font-weight: 300;
     }
     .contact-phone {
         position: relative;
         font-family: "AdelleSansLight", sans-serif;
         font-size: 20px;
         font-weight: 300;
+        text-align: right;
     }
     .contact-link{
         font-size: 16px;
@@ -1282,8 +1284,7 @@ a:focus{
         /*left: 357px;*/
     }
     .ft-contact-container{
-        width: 1023px;
-        left: 61px;
+        width: 100%;
         position: relative;
     }
     .hero-text {
@@ -2637,6 +2638,7 @@ a:focus{
     .contact-cust-service-label {
         font-family: "AdelleSansLight", sans-serif;
         font-size: 20px;
+        font-weight: 300;
     }
     .contact-phone {
         font-family: "AdelleSansLight", sans-serif;
