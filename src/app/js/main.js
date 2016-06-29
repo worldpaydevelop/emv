@@ -210,6 +210,11 @@
             templateUrl: 'src/app/js/components/Thankyou/templates/contact_thankyou.html',
             controller: 'ThankYouController',
             controllerAs: 'thankYouController'
+        }).state('805emv_thankyou', {
+            url: '/805emv_thankyou',
+            templateUrl: 'src/app/js/components/Thankyou/templates/805emv_thankyou.html',
+            controller: 'ThankYouController',
+            controllerAs: 'thankYouController'
         }).state('merchant-portal', {
             url: 'https://portal.worldpay.us/',
             external: true
