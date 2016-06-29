@@ -1,5 +1,5 @@
 (function (angular) {
-    angular.module('emv', ['ui.router', 'ui.bootstrap']).config(function ($httpProvider, $stateProvider, $urlRouterProvider, $provide) {
+    angular.module('emv', ['ui.router', 'ui.bootstrap']).config(function ($httpProvider, $stateProvider, $locationProvider, $urlRouterProvider, $provide) {
         $provide.decorator('$state', function ($delegate, $stateParams) {
             $delegate.forceReload = function () {
                 return $delegate.go($delegate.current, $stateParams, {
@@ -245,6 +245,10 @@
         });
         $urlRouterProvider.otherwise('/updateEMV');
 
+        // Turn off fragments for browser that support history storage
+        if(window.history && window.history.pushState) {
+            $locationProvider.html5Mode({ enabled: true, requireBase: false });
+        }
 
     }).run(function ($rootScope, $window, $location, $anchorScroll, $stateParams, $state) {
         $rootScope.$on('$stateChangeStart',
